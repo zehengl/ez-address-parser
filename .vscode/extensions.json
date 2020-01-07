@@ -1,0 +1,13 @@
+{
+  "recommendations": [
+    "CoenraadS.bracket-pair-colorizer",
+    "DavidAnson.vscode-markdownlint",
+    "ms-python.python",
+    "ms-vscode.wordcount",
+    "njpwerner.autodocstring",
+    "oderwat.indent-rainbow",
+    "tyriar.sort-lines",
+    "vscode-icons-team.vscode-icons",
+    "wmaurer.change-case"
+  ]
+}
