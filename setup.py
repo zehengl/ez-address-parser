@@ -1,5 +1,5 @@
 from os import path
-from setuptools import setup, find_packages
+from setuptools import setup
 
 here = path.abspath(path.dirname(__file__))
 
@@ -8,7 +8,7 @@ with open(path.join(here, "README.md")) as f:
 
 setup(
     name="ez-address-parser",
-    packages=find_packages(),
+    packages=["ez_address_parser"],
     entry_points={"console_scripts": []},
     include_package_data=True,
     package_data={},
