@@ -1,0 +1,24 @@
+<View>
+  <Labels name="ner" toName="address">
+    <Label value="StreetNumber"></Label>
+    <Label value="StreetName"></Label>
+    <Label value="StreetType"></Label>
+    <Label value="StreetDirection"></Label>
+    <Label value="Municipality"></Label>
+    <Label value="Province"></Label>
+    <Label value="PostalCode"></Label>
+    <Label value="GDIndicator"></Label>
+    <Label value="AdditionalInfo"></Label>
+    <Label value="Building"></Label>
+    <Label value="BuildingNumber"></Label>
+    <Label value="PostalBox"></Label>
+    <Label value="PostalBoxNumber"></Label>
+    <Label value="Station"></Label>
+    <Label value="StationNumber"></Label>
+    <Label value="RuralRoute"></Label>
+    <Label value="RuralRouteNumber"></Label>
+    <Label value="Unit"></Label>
+    <Label value="UnitNumber"></Label>
+  </Labels>
+  <Text name="address" value="$address"></Text>
+</View>

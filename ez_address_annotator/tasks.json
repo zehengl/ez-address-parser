@@ -1,0 +1,652 @@
+[
+    {
+        "data": {
+            "address": "624  QUEENSLAND DRIVE SOUTH, CALGARY, QC T2J4G7"
+        }
+    },
+    {
+        "data": {
+            "address": "1842-122 St SW, Edmonton, AB T6W 1S3"
+        }
+    },
+    {
+        "data": {
+            "address": "216 Cranarch Circle SE, Calgary, AB T3M 0S4"
+        }
+    },
+    {
+        "data": {
+            "address": "632  44 AVENUE N.W., CALGARY, AB T2K0J4"
+        }
+    },
+    {
+        "data": {
+            "address": "RR5, SITE 503, BOX 46, STONY PLAIN, AB T7Z 1X5"
+        }
+    },
+    {
+        "data": {
+            "address": "10134 63 Street, Edmonton, AB T6A 2M4"
+        }
+    },
+    {
+        "data": {
+            "address": "75 Morgan Cres., St. Albert, AB T8N 2E3"
+        }
+    },
+    {
+        "data": {
+            "address": "805  8TH AVENUE SOUTH WEST SUITE 905, CALGARY, AB T2P1H7"
+        }
+    },
+    {
+        "data": {
+            "address": "2806-37 AVE NW, EDMONTON, AB T6T 1N3"
+        }
+    },
+    {
+        "data": {
+            "address": "6208 BOW CRESCENT NW 4911 - 51 AVENUE Third Floor, 14505 Bannister Road SE box 3965 4911-51 ave., Olds, AB T4H 1P6"
+        }
+    },
+    {
+        "data": {
+            "address": "6234 264 STREET, ALDERGROVE, BC V4W 1P4"
+        }
+    },
+    {
+        "data": {
+            "address": "4601 Canada Way Suite 401, Burnaby, BC V5G 4X7"
+        }
+    },
+    {
+        "data": {
+            "address": "6519, Napier street, burnaby, BC V5B 2C2"
+        }
+    },
+    {
+        "data": {
+            "address": "1909 ROSS ROAD, ABBOTSFORD, BC V4X 1C2"
+        }
+    },
+    {
+        "data": {
+            "address": "5687 YEW STREET #300, VANCOUVER, BC V6M 3Y2"
+        }
+    },
+    {
+        "data": {
+            "address": "TH#7 - 5782 Berton Ave, Vancouver, BC V6S 0C1"
+        }
+    },
+    {
+        "data": {
+            "address": "1075  WEST GEORGIA ST SUITE 2100, VANCOUVER, BC V6E3G2"
+        }
+    },
+    {
+        "data": {
+            "address": "44597 MICHAEL DRIVE, CHILLIWACK, BC V2R 5L3"
+        }
+    },
+    {
+        "data": {
+            "address": "1308  S.E. MARINE DRIVE SUITE 202, VANCOUVER, BC V5X4K4"
+        }
+    },
+    {
+        "data": {
+            "address": "#147, 2250 LOUIE DRIVE, WEST, KELOWNA, BC V4T 2M6"
+        }
+    },
+    {
+        "data": {
+            "address": "232  SPRINGFIELD RD, WINNIPEG, MB R2G3Z8"
+        }
+    },
+    {
+        "data": {
+            "address": "104 Malmsbury Avenue, Winnipeg, MB R2N 2V1"
+        }
+    },
+    {
+        "data": {
+            "address": "2404  PARK AVENUE BOX 764, BRANDON, MB R7A5Z8"
+        }
+    },
+    {
+        "data": {
+            "address": "1180 SPRINGFIELD ROAD, WINNIPEG, MB R2C 2Z2"
+        }
+    },
+    {
+        "data": {
+            "address": "15  BURY STREET, WINNIPEG, MB R3E2X7"
+        }
+    },
+    {
+        "data": {
+            "address": "55  ARROWWOOD DR SOUTH, Winnipeg, MB R2V 2N9"
+        }
+    },
+    {
+        "data": {
+            "address": "Unit15- 2441 Portage Avenue, Winnipeg, MB R3J 0N3"
+        }
+    },
+    {
+        "data": {
+            "address": "311 SAULTEAUX CRESCENT, WINNIPEG, MB R3J 3C7"
+        }
+    },
+    {
+        "data": {
+            "address": "155  CARLTON STREET SUITE 1900, WINNIPEG, MB R3C3H8"
+        }
+    },
+    {
+        "data": {
+            "address": "1870  ELLICE AVE, WINNIPEG, MB R3H0B9"
+        }
+    },
+    {
+        "data": {
+            "address": "881  VICTORIA ST., EDMUNDSTON, NB E3V3T4"
+        }
+    },
+    {
+        "data": {
+            "address": "15 Promenade Rainbow, Middle River, NB E2A 7R1"
+        }
+    },
+    {
+        "data": {
+            "address": "11 Stevenson St., Miramichi, NB E1V 6G7"
+        }
+    },
+    {
+        "data": {
+            "address": "LORNE ST, SACKVILLE, NB E0A3C0"
+        }
+    },
+    {
+        "data": {
+            "address": "22 BICKERTON AVENUE, SACKVILLE, NB E4L 3M7"
+        }
+    },
+    {
+        "data": {
+            "address": "228  RUE DU POUVOIR, EDMONSTON, NB E3V2Y4"
+        }
+    },
+    {
+        "data": {
+            "address": "159  LANCASTER ST, ST-JOHN, NB E2M5A5"
+        }
+    },
+    {
+        "data": {
+            "address": "146  MOUNT PLEASANT, SAINT JOHN, NB E2K3V1"
+        }
+    },
+    {
+        "data": {
+            "address": "332 Woodward Ave, Saint John, NB E2K 4R1"
+        }
+    },
+    {
+        "data": {
+            "address": "117 Second Avenue 28 Polaris Court Apartment 1, Saint John, NB E2K 4L9"
+        }
+    },
+    {
+        "data": {
+            "address": "510 Topsail Road 26 Lindbergh Cres, Mount Pearl, NL A1N 2E5"
+        }
+    },
+    {
+        "data": {
+            "address": "MEM U OF NFLD PO BOX 4200, ST JOHN'S, NL A1B4J6"
+        }
+    },
+    {
+        "data": {
+            "address": "141 Glencoe Drive, Mt. Pearl (St. John's), NL A1N 4S7"
+        }
+    },
+    {
+        "data": {
+            "address": " PO BOX 5667  P.O. BOX 5667 100 MAIN ROAD, BRIGUS SOUTH - CAPE BROYLE, NL A0A 1P0"
+        }
+    },
+    {
+        "data": {
+            "address": "7 Southcott Drive, Grand Falls, NL A2A 2N9"
+        }
+    },
+    {
+        "data": {
+            "address": "354 Lanark Drive, Paradise, NL A1L 0L9"
+        }
+    },
+    {
+        "data": {
+            "address": "PO BOX 488, LABRADOR CITY, NL A2V1K9"
+        }
+    },
+    {
+        "data": {
+            "address": "7 HYDE PARK DRIVE, ST. JOHN'S, NL A1A 5G1"
+        }
+    },
+    {
+        "data": {
+            "address": "370 HAMILTON RIVER ROAD 2 Bowell Street PO Box 418, Stn. C. 169 Hamilton River Road P. O. Box 418, Station \"C\", Happy Valley-Goose Bay, NL A0P 1C0"
+        }
+    },
+    {
+        "data": {
+            "address": "1429 Topsail Road Unit B, Paradise, NL A1L 1H6"
+        }
+    },
+    {
+        "data": {
+            "address": "380 CRIBBONS POINT ROAD, CRIBBONS POINT, NS B2G 2L2"
+        }
+    },
+    {
+        "data": {
+            "address": "178  AMARANTH CRESCENT, DARTMOUTH, NS B2W4A9"
+        }
+    },
+    {
+        "data": {
+            "address": "1389  PARK RD P O BOX 621, KINGSTON, NS B0P1R0"
+        }
+    },
+    {
+        "data": {
+            "address": "710  FRANKLYN STRET, HALIFAX, NS B3H3B4"
+        }
+    },
+    {
+        "data": {
+            "address": "16 TERREBONNE CRT. 139 LEXINGTON AVE, DARTMOUTH, NS B2X 3T6"
+        }
+    },
+    {
+        "data": {
+            "address": "1215 rue Dalcourt 220 MONTAGUE P. O. BOX 1647 31 Cornwallis Street P. O. BOX 1647, LUNENBURG, NS B0J 2C0"
+        }
+    },
+    {
+        "data": {
+            "address": "845 FELTZEN SOUTH ROAD, ROSE BAY, NS B0J 2X0"
+        }
+    },
+    {
+        "data": {
+            "address": "360, Hillside Drive,, Boutiliers Point, NS B3Z 1X6"
+        }
+    },
+    {
+        "data": {
+            "address": "10 LAWRENCE STREET, AMHERST, NS B4H 3G8"
+        }
+    },
+    {
+        "data": {
+            "address": "6a Fairmount Rd, Halifax, NS B3N 1H4"
+        }
+    },
+    {
+        "data": {
+            "address": "BUILDING 401 PO BOX 473, PANGNIRTUNG, NT X0A0R0"
+        }
+    },
+    {
+        "data": {
+            "address": "BOX 1581, IQALUIT, NT X0A0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "107 MACKENZIE ROAD BAG SERVICE #7, INUVIK, NT X0E 0T0"
+        }
+    },
+    {
+        "data": {
+            "address": "208 Sinaa Street, IQALUIT, NU X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "601, 4920 - 52 Street, YELLOWKNIFE, NT X1A 3T1"
+        }
+    },
+    {
+        "data": {
+            "address": "5108  FRANKLIN AVE. P.O.BOX 939, YELLOWKNIFE, NT X0E1H0"
+        }
+    },
+    {
+        "data": {
+            "address": "BOX 18, CAMBRIDGE BAY, NT X0E0C0"
+        }
+    },
+    {
+        "data": {
+            "address": "2424 Pairngaq Crescent, Iqaluit, NU X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "922 Niaqunngusiaq Road  Box 1228, Iqaluit, NU X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "4908  FRANKLIN AVENUE P.O.BOX 818, YELLOWKNIFE, NT X0E1H0"
+        }
+    },
+    {
+        "data": {
+            "address": "696  HAPPY VALLEY WAY, IQALUIT, NT X0A0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "Building 607, Iqaluit, NU X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "17 MITIK STREET  BOX 1330  BOX 1331 26, OMINGMAK STREET P. O. BOX 1331, CAMBRIDGE BAY, NU X0B 0C0"
+        }
+    },
+    {
+        "data": {
+            "address": "322 PISSUK ST.  P.O. BOX 248, RANKIN INLET, NU X0C 0G0"
+        }
+    },
+    {
+        "data": {
+            "address": " OOMILIK BUILDING #2, RANKIN INLET, NU X0C 0G0"
+        }
+    },
+    {
+        "data": {
+            "address": "BUILDING NO 922 BOX 1228, IQALUIT, NT X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "BUILDING 917 BOX 133, IQALUIT, NU X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "House 5037 Box 383, Iqaluit, NU X0A 0H0"
+        }
+    },
+    {
+        "data": {
+            "address": "BOX 112 BOX 112, ARVIAT, NT X0C 0E0"
+        }
+    },
+    {
+        "data": {
+            "address": "225 KUGAARUK ST.  PO BOX 205, KUGLUKYUK, NU X0B 1K0"
+        }
+    },
+    {
+        "data": {
+            "address": "388  BOOTH, OTTAWA, ON K1R7K6"
+        }
+    },
+    {
+        "data": {
+            "address": "3 BELAIR PLACE ALLISTON 6-2098 MARINE DRIVE, OAKVILLE, ON L6L 1B7"
+        }
+    },
+    {
+        "data": {
+            "address": "1616-47 THORNCLIFFE PARK DR, TORONTO, ON M4H 1J5"
+        }
+    },
+    {
+        "data": {
+            "address": "3 MENNO ST., WATERLOO, ON N2L 2A4"
+        }
+    },
+    {
+        "data": {
+            "address": "3560 Rutherford Rd , Vaughan, ON L4H 2J3"
+        }
+    },
+    {
+        "data": {
+            "address": "3700-400 Third Avenue S.W., Calgary, AB T2P 4H2"
+        }
+    },
+    {
+        "data": {
+            "address": "3265 JEFFERSON BLVD., WINDSOR, ON N8T 2W7"
+        }
+    },
+    {
+        "data": {
+            "address": "51 Alti Place, Ottawa, ON K2R 1E6"
+        }
+    },
+    {
+        "data": {
+            "address": "116  GRENADIER CRESCENT, THORNHILL, ON L4J7V7"
+        }
+    },
+    {
+        "data": {
+            "address": "54 ORR CR., STONEY CREEK, ON L8G 5C5"
+        }
+    },
+    {
+        "data": {
+            "address": "IST AVE.W.ROYALTY IND. PK, WEST ROYALTY, PE C1E1B0"
+        }
+    },
+    {
+        "data": {
+            "address": "1653 MACISAAC ROAD R.R.#2 P.O. Box:118, RICHMOND, PE C0B 1Y0"
+        }
+    },
+    {
+        "data": {
+            "address": "65 Grafton Street, Charlottetown, PE C1A 1K8"
+        }
+    },
+    {
+        "data": {
+            "address": "440, Notre Dame St, Summerside, PE C1N 1T1"
+        }
+    },
+    {
+        "data": {
+            "address": " HARBOUR AUTHORITY OF NEW LONDON  HARBOUR AUTHORITY OF NEW LONDON R.R. #2 442 CENTRAL STREET, SUMMERSIDE, PE C1N 3N7"
+        }
+    },
+    {
+        "data": {
+            "address": "94 WATTS AVENUE, CHARLOTTETOWN, PE C1E 2C1"
+        }
+    },
+    {
+        "data": {
+            "address": "14 Larkspur Street, Stratford, PE C1B 0H2"
+        }
+    },
+    {
+        "data": {
+            "address": "34 Langley Road, Stratford, PE C1B 2K3"
+        }
+    },
+    {
+        "data": {
+            "address": "5235 RR 3, VERNON RIVER, PE C0A 2E0"
+        }
+    },
+    {
+        "data": {
+            "address": "PROMENADE ACADIENNE, WELLINGTON CENTER C.P. 214, WELLINGTON, PE C0B 2E0"
+        }
+    },
+    {
+        "data": {
+            "address": "155  RUE GRANDE ALLEE, ILE DE LA MADELEINE, QC G0B1B0"
+        }
+    },
+    {
+        "data": {
+            "address": "3095  DESORMEAUX, MONTREAL, QC H1L4Y1"
+        }
+    },
+    {
+        "data": {
+            "address": "1472A DECELLES, SAINT-LAURENT, QC H4L 2C9"
+        }
+    },
+    {
+        "data": {
+            "address": "20 RUE ROBERT BUREAU 200, SAINT-BASILE-LE-GRAND, QC J3N 1L7"
+        }
+    },
+    {
+        "data": {
+            "address": "40 RUE DUBOIS, ST-EUSTACHE, QC J7P 4W9"
+        }
+    },
+    {
+        "data": {
+            "address": "775  AVE. ST JEAN BAPTISTE SUITE 105, QUEBEC, QC G2E5G5"
+        }
+    },
+    {
+        "data": {
+            "address": "5392  DUQUESNE, MONTREAL, QC H1M2K2"
+        }
+    },
+    {
+        "data": {
+            "address": "115 RUE DES PME, SHERBROOKE, QC J1C 0R2"
+        }
+    },
+    {
+        "data": {
+            "address": "4780, rue Saint-Félix, St-Augustin-de-Desmaures, QC G3A 2J9"
+        }
+    },
+    {
+        "data": {
+            "address": "11 third ave. south, Roxboro (Montreal), QC H8Y 2L3"
+        }
+    },
+    {
+        "data": {
+            "address": "2202 HANOVER CRES., REGINA, SK S4V 0Z6"
+        }
+    },
+    {
+        "data": {
+            "address": "31 PEELING AVENUE, SASKATOON, SK S7M 4M1"
+        }
+    },
+    {
+        "data": {
+            "address": "2 GLENROY ROAD 4305 PRESTON CRESCENT 4305 PRESTON CRESCENT, REGINA, SK S4X 0C9"
+        }
+    },
+    {
+        "data": {
+            "address": "221 Laurentian Drive, Saskatoon, SK S7H 4R8"
+        }
+    },
+    {
+        "data": {
+            "address": "304-1255 Broad St, Regina, SK S4R 1Y2"
+        }
+    },
+    {
+        "data": {
+            "address": "11430 Railway Avenue East, North Battleford, SK S9A 3G8"
+        }
+    },
+    {
+        "data": {
+            "address": "#235 - 2002 Quebec Avenue 426  SCOTIA DRIVE PO BOX 3338, MELFORT, SK S0E 1A0"
+        }
+    },
+    {
+        "data": {
+            "address": "105 Hall St E, Moose Jaw, SK S6H 0T7"
+        }
+    },
+    {
+        "data": {
+            "address": "37A CLARK CRES, SASKATOON, SK S7H 3L8"
+        }
+    },
+    {
+        "data": {
+            "address": "1910 POHORECKY TERRACE, SASKATOON, SK S7W 0J1"
+        }
+    },
+    {
+        "data": {
+            "address": "85 PONDEROSA DRIVE 204 LAMBERT STREET SUITE 200, WHITEHORSE, YT Y1A 3T2"
+        }
+    },
+    {
+        "data": {
+            "address": " P.O. Box:17 LOT 16 AND 16, GRP 6 PLAN 5005  L.T.O. 23354  P.O. Box: 118 lot 9-10  tagish ave., carcross, YT Y1A 1B0"
+        }
+    },
+    {
+        "data": {
+            "address": "204  LAMBERT ST SUITE 200, WHITEHORSE, YT Y1A3T2"
+        }
+    },
+    {
+        "data": {
+            "address": "3081  THIRD AVENUE, WHITEHORSE, YT Y1A4Z7"
+        }
+    },
+    {
+        "data": {
+            "address": "#2004 18 Michie Place, Marsh Lake, YT Y0B 1Y2"
+        }
+    },
+    {
+        "data": {
+            "address": "156 Fox Farm Rd. Whitehorse, Yukon, YT Y1A 5S7"
+        }
+    },
+    {
+        "data": {
+            "address": "2093  SECOND AVENUE, WHITEHORSE, YT Y1A1B5"
+        }
+    },
+    {
+        "data": {
+            "address": "4- 2553 Quadra St 202 100 MAIN STREET 204 BLACK STREET SUITE 300, WHITEHORSE, YT Y1A 2M9"
+        }
+    },
+    {
+        "data": {
+            "address": "3081 THIRD AVENUE, WHITEHORSE, YT Y1A 4Z7"
+        }
+    },
+    {
+        "data": {
+            "address": "8 Garnet Cresent 36 Cedar Ridge Lane, Gormely, ON, YT Y1A 6A7"
+        }
+    }
+]

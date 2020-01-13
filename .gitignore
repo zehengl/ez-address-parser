@@ -4,4 +4,6 @@ __pycache__
 *.egg-info
 build
 dist
+ez_address_annotator/data/seeds.csv
+ez_address_annotator/data/csv
 venv
