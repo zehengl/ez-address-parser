@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 15001,
+            "lead_time": 33.656,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "beFcNwpIbx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "5687"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "W28IAVIG4H",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "YEW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UIH8tC7u2X",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5Sh-xMy8jg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 16,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B0pVdQTgYd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 17,
+                        "text": "300"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hme1vSFx-t",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "VANCOUVER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "f72lXS_cxy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zCeA_9JjOn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "V6M"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "u89xS-Macf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "3Y2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "5687 YEW STREET #300, VANCOUVER, BC V6M 3Y2"
+    },
+    "id": 15,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

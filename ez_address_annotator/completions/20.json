@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 20001,
+            "lead_time": 40.682,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "A5FgBHvCqh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 6,
+                        "text": "2250"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1wki4ahCEI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 11,
+                        "text": "LOUIE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OdvjxiU1KB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 17,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qUmTuKYFQx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 24,
+                        "text": "WEST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ru5CTw0IOL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "KELOWNA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7pZKy2vvYP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 39,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Xvkxgo3CYE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 42,
+                        "text": "V4T"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "btzF9zUNKV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 46,
+                        "text": "2M6"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Wtn7vxk914",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 0,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nF3UPyhx6i",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 1,
+                        "text": "147"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "#147, 2250 LOUIE DRIVE, WEST, KELOWNA, BC V4T 2M6"
+    },
+    "id": 20,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 28001,
+            "lead_time": 23.052,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "3T49J8OtBV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "311"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uLAmxmXoMD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "SAULTEAUX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "K6ak4YSjQX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "CRESCENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "l-Xiaf90R2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "WINNIPEG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WkVOVqsUj9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 34,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1IBiyKfTEf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "R3J"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "usCPBXq80U",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "3C7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "311 SAULTEAUX CRESCENT, WINNIPEG, MB R3J 3C7"
+    },
+    "id": 28,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

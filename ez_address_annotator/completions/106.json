@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 106001,
+            "lead_time": 111.05,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "xbZpsgUVTy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 38,
+                        "text": "QUEBEC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "t1gVHQ_l9i",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 46,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "I_Iruq5cgV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 49,
+                        "text": "G2E5G5"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XBMpdy7neR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 27,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rfTiX3sqZR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 33,
+                        "text": "105"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9WiZ-DoYdn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 10,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "32J_PXgs6z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 13,
+                        "text": "JEAN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Hds3N5t7nL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "BAPTISTE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QkruLJvutb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 0,
+                        "text": "775"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ShXesrIKt3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 5,
+                        "text": "AVE"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "775  AVE. ST JEAN BAPTISTE SUITE 105, QUEBEC, QC G2E5G5"
+    },
+    "id": 106,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

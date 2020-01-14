@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 38001,
+            "lead_time": 36.993,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "7ONXBqfK98",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "146"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "P2iYj8tRvB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "MOUNT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HB4VseiIV7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 11,
+                        "text": "PLEASANT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0Z4hFLy6r2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "SAINT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9a_NiH9p0d",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "JOHN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9cgtBIfsf7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zD-2rNvJZl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "E2K3V1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "146  MOUNT PLEASANT, SAINT JOHN, NB E2K3V1"
+    },
+    "id": 38,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

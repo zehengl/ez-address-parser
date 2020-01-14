@@ -1,0 +1,450 @@
+{
+    "completions": [
+        {
+            "id": 49001,
+            "lead_time": 117.645,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "iEcMzPrmTb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "370"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2NCW2P0dGQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "HAMILTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cBNM8YMYwg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 13,
+                        "text": "RIVER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SH4f4g208z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 19,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MyRR1InvCl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 24,
+                        "text": "2"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_ZP4k1CWL4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 26,
+                        "text": "Bowell"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BlQWiYDQDI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 33,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "idPNwf43ky",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 40,
+                        "text": "PO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XMCm0h5osG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 43,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3I_NAfj9Tk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 47,
+                        "text": "418"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yMZr7y0ykT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "Station"
+                        ],
+                        "start": 51,
+                        "text": " Stn"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ArYmRfc8mQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 57,
+                        "labels": [
+                            "StationNumber"
+                        ],
+                        "start": 57,
+                        "text": "C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "C6OH_XZfgN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 62,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 60,
+                        "text": "169"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SYgZWYH5nF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 71,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 64,
+                        "text": "Hamilton"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5uF49KPyQ5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 77,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 73,
+                        "text": "River"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yKIrAGq_4d",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 82,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 79,
+                        "text": "Road"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-bVJX0xO5p",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 84,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 84,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QcDmL_F6Zb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 87,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 87,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5-GhazmPb4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 92,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 90,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EmS5PoJOkJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 96,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 94,
+                        "text": "418"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gd9mU6ZmZC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 105,
+                        "labels": [
+                            "Station"
+                        ],
+                        "start": 99,
+                        "text": "Station"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y_LfM7-She",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 108,
+                        "labels": [
+                            "StationNumber"
+                        ],
+                        "start": 108,
+                        "text": "C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WQwZW0DFWe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 116,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 112,
+                        "text": "Happy"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "s7B6FjHT8j",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 123,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 118,
+                        "text": "Valley"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_CksVr6Yko",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 129,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 125,
+                        "text": "Goose"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vuBDdEIisF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 133,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 131,
+                        "text": "Bay"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "56CU0D8_WE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 137,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 136,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LLxsPkUuvE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 141,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 139,
+                        "text": "A0P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LBYUVO-ihD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 145,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 143,
+                        "text": "1C0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "370 HAMILTON RIVER ROAD 2 Bowell Street PO Box 418, Stn. C. 169 Hamilton River Road P. O. Box 418, Station \"C\", Happy Valley-Goose Bay, NL A0P 1C0"
+    },
+    "id": 49,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

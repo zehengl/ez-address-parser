@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 124001,
+            "lead_time": 16.064,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "cin_LkS8hT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "3081"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "i0HuANLaMu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "THIRD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7ZhuPXSuI5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gjqtdaGuBn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 20,
+                        "text": "WHITEHORSE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gzWl_PvSRH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "F2zBKmueza",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "Y1A4Z7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3081  THIRD AVENUE, WHITEHORSE, YT Y1A4Z7"
+    },
+    "id": 124,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

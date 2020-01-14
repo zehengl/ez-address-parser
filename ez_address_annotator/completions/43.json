@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 43001,
+            "lead_time": 61.636,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "CyqQfW1ERC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "141"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Yn9p_0gG4c",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Glencoe"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6v2RMS41QF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "Drive"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mJIFj4IrGJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "Mt"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2hyT3nhjwk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "Pearl"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8K_7x-AsO1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lAIPBLVNUc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 34,
+                        "text": "John's"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "chLkZdlpHM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 43,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yWpuMp5qCq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 46,
+                        "text": "A1N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "du_UJqNdtw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 50,
+                        "text": "4S7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "141 Glencoe Drive, Mt. Pearl (St. John's), NL A1N 4S7"
+    },
+    "id": 43,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

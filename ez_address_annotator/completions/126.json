@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 126001,
+            "lead_time": 33.835,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "B--nF31dGg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "156"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9h-CXvXxoY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Fox"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YB5jbkr7kr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 8,
+                        "text": "Farm"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NuoXbf_y3Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "Rd"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vjKci48b_Q",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "Whitehorse"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gD6iwjwZyU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "Yukon"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jiDCbwdfAQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AFoNPpy8Qc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "Y1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JHwv6bqSTa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "5S7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "156 Fox Farm Rd. Whitehorse, Yukon, YT Y1A 5S7"
+    },
+    "id": 126,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

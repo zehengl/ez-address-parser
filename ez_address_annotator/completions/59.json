@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 59001,
+            "lead_time": 18.831,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "2yNV07gYbM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "10"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-0rcl8Bkr3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "LAWRENCE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UWlwk0tgkl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Cv65F3PAtA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 20,
+                        "text": "AMHERST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "K7bJFiGOTV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7p-KtQZs7l",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "B4H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "986O79qDXb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "3G8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "10 LAWRENCE STREET, AMHERST, NS B4H 3G8"
+    },
+    "id": 59,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 35001,
+            "lead_time": 22.269,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "izqiTX9Xxm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "22"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rTMYiRx_LC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "BICKERTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-2V6TlRq64",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "q5r4xr48vO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "SACKVILLE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "U_vuEEgYVS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PEfZZeH34x",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "E4L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mREz8zO9sP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "3M7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "22 BICKERTON AVENUE, SACKVILLE, NB E4L 3M7"
+    },
+    "id": 35,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

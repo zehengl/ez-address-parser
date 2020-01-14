@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 9001,
+            "lead_time": 41.825,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "NZzz2zEI5y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "2806"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0N0rH2txZZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "37"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XU4QrUtumN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 8,
+                        "text": "AVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4qE-4McV6p",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 12,
+                        "text": "NW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8ikYCdV2al",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 16,
+                        "text": "EDMONTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "adW03I_L1G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 26,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "k-8CJZfivC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 29,
+                        "text": "T6T"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "urvx7ZHuNb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "1N3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "2806-37 AVE NW, EDMONTON, AB T6T 1N3"
+    },
+    "id": 9,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

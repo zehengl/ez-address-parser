@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 83001,
+            "lead_time": 35.945,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "fbcfatEUJS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "M4H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "03N1ff-Q-0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 45,
+                        "text": "1J5"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XPRneGitTv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 38,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "N7rHDYM4lc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "TORONTO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TjifGGuVgg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 5,
+                        "text": "47"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iHumf8l0QC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 8,
+                        "text": "THORNCLIFFE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FlStzpS2pE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 20,
+                        "text": "PARK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PJezQYfw9I",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 25,
+                        "text": "DR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WLAX6-1_HQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 0,
+                        "text": "1616"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1616-47 THORNCLIFFE PARK DR, TORONTO, ON M4H 1J5"
+    },
+    "id": 83,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

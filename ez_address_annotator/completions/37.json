@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 37001,
+            "lead_time": 23.001,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "4AQM9DDx0j",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "159"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FdhtTwMWDv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "LANCASTER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2EqhMUI2ja",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "l2ZTDmoOcp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EmIIn3a5M9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "JOHN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UQBJszS_rT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xnHk1oFzy-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "E2M5A5"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "159  LANCASTER ST, ST-JOHN, NB E2M5A5"
+    },
+    "id": 37,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

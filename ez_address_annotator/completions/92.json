@@ -1,0 +1,240 @@
+{
+    "completions": [
+        {
+            "id": 92001,
+            "lead_time": 66.991,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "GRzYKWoDDl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1653"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "73A7Q6xejo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "MACISAAC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1uMkPzlmdR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IAkwky0bUo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 19,
+                        "text": "R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "89iaP5fEO0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 21,
+                        "text": "R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "i9kvRh5-E1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 23,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Eji3wdKIzP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "RuralRouteNumber"
+                        ],
+                        "start": 24,
+                        "text": "2"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_eaZCtEh9v",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 26,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YennNYFVfQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 28,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1un9xUs8BS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 31,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9PJpZfNEkU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 35,
+                        "text": "118"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2kOnAgGtXe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 40,
+                        "text": "RICHMOND"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "C_RW8ngrPI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 51,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 50,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7VFFp8Pe9Q",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 55,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 53,
+                        "text": "C0B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fPzDQsctFN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 59,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 57,
+                        "text": "1Y0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1653 MACISAAC ROAD R.R.#2 P.O. Box:118, RICHMOND, PE C0B 1Y0"
+    },
+    "id": 92,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 88001,
+            "lead_time": 23.683,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "TlZmVH9q4i",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "51"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VkHoz8EMFT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Alti"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LEgPvH7k2l",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 8,
+                        "text": "Place"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FJ00yZ5NAF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 15,
+                        "text": "Ottawa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9ZxsZjCEBX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 23,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-m-zFlaad2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 26,
+                        "text": "K2R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "GvSDFEngnP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "1E6"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "51 Alti Place, Ottawa, ON K2R 1E6"
+    },
+    "id": 88,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

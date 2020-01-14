@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 65001,
+            "lead_time": 44.085,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "A9cDQalb8s",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 12,
+                        "text": "52"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZLjEAyIGpB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JYRr-oxYyV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "YELLOWKNIFE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DQiEEgDgad",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wZUORlwDry",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "X1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xelxNcZn6Z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "3T1"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kIfkutYiDk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 5,
+                        "text": "4920"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WTqmVmvOjG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 0,
+                        "text": "601"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "601, 4920 - 52 Street, YELLOWKNIFE, NT X1A 3T1"
+    },
+    "id": 65,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

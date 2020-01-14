@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 67001,
+            "lead_time": 47.504,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "D1UH92S8nI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 0,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xt9zVmHBSC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 5,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 4,
+                        "text": "18"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zFeSbshjTR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 8,
+                        "text": "CAMBRIDGE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8uwpWV4AtK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "BAY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "63paS4P-PR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 23,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mqLIHSVtZm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 26,
+                        "text": "X0E0C0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "BOX 18, CAMBRIDGE BAY, NT X0E0C0"
+    },
+    "id": 67,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

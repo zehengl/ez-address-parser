@@ -1,0 +1,180 @@
+{
+    "completions": [
+        {
+            "id": 109001,
+            "lead_time": 59.778,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "4kMMC3NWTz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "4780"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D5KbzxU-Ek",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 10,
+                        "text": "Saint"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "X65vOrIvs2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 16,
+                        "text": "F\u00c3\u00a9lix"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MJbdThpQ_D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 6,
+                        "text": "rue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jl1E7G4Mgw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pscR7nNivG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "Augustin"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ix--ScBBfq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 36,
+                        "text": "de"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y3AcO4iRyS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 39,
+                        "text": "Desmaures"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BTx1j2kiqs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 51,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 50,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4ZPO9Iqpdj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 55,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 53,
+                        "text": "G3A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "O8pnYde9cG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 59,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 57,
+                        "text": "2J9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "4780, rue Saint-F\u00c3\u00a9lix, St-Augustin-de-Desmaures, QC G3A 2J9"
+    },
+    "id": 109,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

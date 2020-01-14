@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 33001,
+            "lead_time": 26.458,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "RqLB21O_nz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "11"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "m4fJVrlpuD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Stevenson"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "va8F_rAZaj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "W8IiI8UTHf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "Miramichi"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "io495j6z7g",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ljcl_9kx2i",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "E1V"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-riOnh0UC7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "6G7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "11 Stevenson St., Miramichi, NB E1V 6G7"
+    },
+    "id": 33,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

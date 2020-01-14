@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 4001,
+            "lead_time": 22.572,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "IXMmpkfJcI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "632"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iVnLyyuvsg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "44"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xMeLX7Yem0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 8,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TXL7zcT1Bq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 15,
+                        "text": "N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KUOFdUKMaW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 17,
+                        "text": "W"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qJYU7UEQyQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "CALGARY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EMmUQSWvQO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 30,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "GH4fbOUaSa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "T2K0J4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "632  44 AVENUE N.W., CALGARY, AB T2K0J4"
+    },
+    "id": 4,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

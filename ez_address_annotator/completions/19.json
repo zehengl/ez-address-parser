@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 19001,
+            "lead_time": 44.733,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "00vf7f2b8N",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1308"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aGOi6DWD19",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 11,
+                        "text": "MARINE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "elMArarwtS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 18,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "imGjJyKel4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 24,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dK8GpKc4AM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 30,
+                        "text": "202"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-0JTp_DG2W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 35,
+                        "text": "VANCOUVER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aq178MEtyY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 46,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lleqOJWfDG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 49,
+                        "text": "V5X4K4"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lV0iZbv4Cr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 6,
+                        "text": "S"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iWWfgfU8qT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 8,
+                        "text": "E"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1308  S.E. MARINE DRIVE SUITE 202, VANCOUVER, BC V5X4K4"
+    },
+    "id": 19,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

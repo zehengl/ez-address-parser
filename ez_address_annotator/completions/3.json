@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 3001,
+            "lead_time": 33.353,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "2A7wd6Q-8B",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "216"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4LAEmDb-yz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Cranarch"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5j9FAjhQdg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "Circle"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Zct4JLUy-0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 20,
+                        "text": "SE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "b8vQ-R9M1-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "Calgary"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ky5R18g3a6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZTD81FkSWf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "T3M"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BpmQ9RFWFU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "0S4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "216 Cranarch Circle SE, Calgary, AB T3M 0S4"
+    },
+    "id": 3,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

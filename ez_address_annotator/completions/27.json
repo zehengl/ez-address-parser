@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 27001,
+            "lead_time": 41.608,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "l6iI7jlRod",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 0,
+                        "text": "Unit"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AvhGCvBzOm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 5,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 4,
+                        "text": "15"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZtHjBvMjJz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 8,
+                        "text": "2441"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1VKmpblQTU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 13,
+                        "text": "Portage"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NMi6jWWtHv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 21,
+                        "text": "Avenue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OA5jfx6Qx9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "Winnipeg"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "J9jbWG7_k3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 39,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Coj9IbvIIv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 42,
+                        "text": "R3J"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-AKw2IEj1S",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 46,
+                        "text": "0N3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "Unit15- 2441 Portage Avenue, Winnipeg, MB R3J 0N3"
+    },
+    "id": 27,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,315 @@
+{
+    "completions": [
+        {
+            "id": 56001,
+            "lead_time": 179.6,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "u9qXDjdLaT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 91,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 83,
+                        "text": "LUNENBURG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yVgN0NJ0Tw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 95,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 94,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LCTggaQczg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 99,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 97,
+                        "text": "B0J"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-cLLxNjvct",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 103,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 101,
+                        "text": "2C0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DrY_gKghap",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1215"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MSfdOK4ABm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 5,
+                        "text": "rue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Kh7QWlgwHb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 9,
+                        "text": "Dalcourt"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y6PPssulIz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 18,
+                        "text": "220"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "L2Q9SRnMsd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 22,
+                        "text": "MONTAGUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cWM0VDHzTx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 31,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mG5GGHGQsE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 34,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "75hgFaGwSB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 37,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HHK87qULwZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 41,
+                        "text": "1647"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "q1WSl-1sJ_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 46,
+                        "text": "31"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UvP1492lqq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 49,
+                        "text": "Cornwallis"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Vuo65MmaXR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 65,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 60,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hno8Um2m3g",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 67,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 67,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rczWhYUi4v",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 70,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 70,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qjH5kemdrc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 75,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 73,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SJ3LeM1rDP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 80,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 77,
+                        "text": "1647"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1215 rue Dalcourt 220 MONTAGUE P. O. BOX 1647 31 Cornwallis Street P. O. BOX 1647, LUNENBURG, NS B0J 2C0"
+    },
+    "id": 56,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

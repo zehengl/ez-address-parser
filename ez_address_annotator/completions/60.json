@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 60001,
+            "lead_time": 32.21,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "t7fmxa1j8-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "6a"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HqvRQ0hCYB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Fairmount"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RmBcCIN6Ba",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "Rd"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_-o3lQqXYK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "Halifax"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1M0G56pOgt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 26,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IHreQcb9XG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 29,
+                        "text": "B3N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-poq0spIHK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "1H4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "6a Fairmount Rd, Halifax, NS B3N 1H4"
+    },
+    "id": 60,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

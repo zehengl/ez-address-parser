@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 36001,
+            "lead_time": 20.388,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "hHMtR-rYKI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "228"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "x3jtMerzDr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 5,
+                        "text": "RUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "W5NxDSgUV1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 9,
+                        "text": "DU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OYdHHfh4jZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 12,
+                        "text": "POUVOIR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7Lue7P7vXJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "EDMONSTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dksmrPH_I2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ue9PQYHogS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "E3V2Y4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "228  RUE DU POUVOIR, EDMONSTON, NB E3V2Y4"
+    },
+    "id": 36,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 11001,
+            "lead_time": 69.238,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "KMe46VPW8G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "6234"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0lZbD29Zgi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "264"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cinEx1rSsG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OpPN5j3tvF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "ALDERGROVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-kPe313BJb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BnXWvlXqt1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "V4W"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nimTiQ43pr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "1P4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "6234 264 STREET, ALDERGROVE, BC V4W 1P4"
+    },
+    "id": 11,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

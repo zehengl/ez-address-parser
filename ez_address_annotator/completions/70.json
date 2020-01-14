@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 70001,
+            "lead_time": 38.645,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Bpu5A33p6Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "4908"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CUNyPJZ4H-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "FRANKLIN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VJeWXsG_WV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fVuPh1eGha",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 22,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "M2YGpGay3e",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 24,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ft-sJUVqpB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 26,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AFEoRL_p8m",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 30,
+                        "text": "818"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "L9KZtnrBG_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 35,
+                        "text": "YELLOWKNIFE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "R5kHtZhhKh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 48,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6vdjKYKDdL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 56,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 51,
+                        "text": "X0E1H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "4908  FRANKLIN AVENUE P.O.BOX 818, YELLOWKNIFE, NT X0E1H0"
+    },
+    "id": 70,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

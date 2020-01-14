@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 75001,
+            "lead_time": 51.872,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "p1cGF8ez7e",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 1,
+                        "text": "OOMILIK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IDUxzXwqGC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 9,
+                        "text": "BUILDING"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bm3jYlsH7D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 18,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ECKpfufsKL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 19,
+                        "text": "2"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "f-VeoHgy_v",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "RANKIN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Kq9FLWVw0z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "INLET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0U9xoIL1NM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-gdbfmqE-Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "X0C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a7kfDXjnZm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "0G0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": " OOMILIK BUILDING #2, RANKIN INLET, NU X0C 0G0"
+    },
+    "id": 75,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

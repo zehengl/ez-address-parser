@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 105001,
+            "lead_time": 45.661,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "b_AhroOBps",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "40"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DaAXCFAEfa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 5,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 3,
+                        "text": "RUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oJTLrSQsyR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 7,
+                        "text": "DUBOIS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aa-SDZk35Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 15,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "weWvMnA3z9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "EUSTACHE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B90RHEqa4G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fa6xFaMqBy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "J7P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "K3rZHIh3Uh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "4W9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "40 RUE DUBOIS, ST-EUSTACHE, QC J7P 4W9"
+    },
+    "id": 105,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

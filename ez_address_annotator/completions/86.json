@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 86001,
+            "lead_time": 49.299,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "lqXP-MQGlG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 0,
+                        "text": "3700"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6QHP9EzpFn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 5,
+                        "text": "400"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EHH3VimTh5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 9,
+                        "text": "Third"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2jc1FghU8u",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "Avenue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FYMSoZ9wQr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 22,
+                        "text": "S"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qrikvnDBtc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 24,
+                        "text": "W"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mK9BqDJ0qt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 28,
+                        "text": "Calgary"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eY0LNbYRJM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 37,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nsxXaFjs6l",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "T2P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fgaV-mEFdx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 44,
+                        "text": "4H2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3700-400 Third Avenue S.W., Calgary, AB T2P 4H2"
+    },
+    "id": 86,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

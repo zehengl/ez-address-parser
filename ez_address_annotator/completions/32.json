@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 32001,
+            "lead_time": 45.779,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "m4gE9cqI2_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "15"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Z4sOAvF2BU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Promenade"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LGrSv5r8y-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 13,
+                        "text": "Rainbow"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sQRLbP5R7D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "Middle"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "c1JlzMPTQM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "River"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B0MPC-I4I-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "o8k3m0xdp-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "E2A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bb2rgP5kLd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "7R1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "15 Promenade Rainbow, Middle River, NB E2A 7R1"
+    },
+    "id": 32,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

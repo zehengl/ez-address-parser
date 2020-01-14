@@ -1,0 +1,90 @@
+{
+    "completions": [
+        {
+            "id": 102001,
+            "lead_time": 27.254,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Pfnf9FUhAH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "3095"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WBLtoo03pk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "DESORMEAUX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TDVbamlrY7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "MONTREAL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "R8hl2rV1wp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vqr7drlSj7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "H1L4Y1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3095  DESORMEAUX, MONTREAL, QC H1L4Y1"
+    },
+    "id": 102,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

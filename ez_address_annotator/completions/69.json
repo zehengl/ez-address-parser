@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 69001,
+            "lead_time": 43.666,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "VqA8d2Jk9c",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "922"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bjoEak2C3K",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Niaqunngusiaq"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kRZNNonMqN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 18,
+                        "text": "Road"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-xm6N_rCGg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 24,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RINjMLAlL1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 28,
+                        "text": "1228"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hDccdMzfFd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 34,
+                        "text": "Iqaluit"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "foNjtJYkxI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 43,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PPMdVa68T1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 46,
+                        "text": "X0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KnTSF6Uymn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 50,
+                        "text": "0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "922 Niaqunngusiaq Road  Box 1228, Iqaluit, NU X0A 0H0"
+    },
+    "id": 69,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

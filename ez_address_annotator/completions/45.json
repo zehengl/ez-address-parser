@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 45001,
+            "lead_time": 33.144,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Y5ko10fKad",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "7"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "d2cwSkTMks",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 2,
+                        "text": "Southcott"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6eVGO49KmP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "Drive"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "65MhGxE4Yt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "Grand"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2AlajoGbRU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 25,
+                        "text": "Falls"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dO23ZXCXCI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9ZaDi-2ER4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "A2A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SrS1uSAgd5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "2N9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "7 Southcott Drive, Grand Falls, NL A2A 2N9"
+    },
+    "id": 45,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

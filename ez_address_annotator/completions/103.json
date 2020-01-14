@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 103001,
+            "lead_time": 33.614,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "zBPHteZnSY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1472A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5JIuKSkyHn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "DECELLES"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZN79_A4du7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 16,
+                        "text": "SAINT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "A05M9y4VsV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "LAURENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "m1a5Z-YWMO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OiUj5Z8SOH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "H4L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9Ol0d0IjBk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "2C9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1472A DECELLES, SAINT-LAURENT, QC H4L 2C9"
+    },
+    "id": 103,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

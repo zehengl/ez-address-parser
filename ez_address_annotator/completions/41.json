@@ -1,0 +1,180 @@
+{
+    "completions": [
+        {
+            "id": 41001,
+            "lead_time": 49.655,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Qgg_Aa76bW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "510"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gJaAiVcZ4a",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Topsail"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "v1fo42W6vN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "Road"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uhFicHraUq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 17,
+                        "text": "26"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hf-drFM8kW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 20,
+                        "text": "Lindbergh"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JVNKuwSqOb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 30,
+                        "text": "Cres"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4ieezFdKOg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 36,
+                        "text": "Mount"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-cVjauIcOL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 42,
+                        "text": "Pearl"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yFTo7zWAHa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 49,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jsiV0F-JaN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 52,
+                        "text": "A1N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UgOV7pOYNe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 56,
+                        "text": "2E5"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "510 Topsail Road 26 Lindbergh Cres, Mount Pearl, NL A1N 2E5"
+    },
+    "id": 41,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,90 @@
+{
+    "completions": [
+        {
+            "id": 34001,
+            "lead_time": 19.151,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "LXWg4l-nq1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 0,
+                        "text": "LORNE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7Lrq-Bp12a",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 6,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5Gby-vdqkX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 21,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_CPYBer01_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 10,
+                        "text": "SACKVILLE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Bc7eUFltoV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 24,
+                        "text": "E0A3C0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "LORNE ST, SACKVILLE, NB E0A3C0"
+    },
+    "id": 34,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

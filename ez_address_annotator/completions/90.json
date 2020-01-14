@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 90001,
+            "lead_time": 24.427,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "3XS5NZF76X",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "54"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fFxhWQhhk7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 5,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "ORR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4SgIyyGl25",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 7,
+                        "text": "CR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RkHdPJ1Muf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 12,
+                        "text": "STONEY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AlZQyeXk8e",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "CREEK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KJp-Zuaxyw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 26,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "73KqTR9MhK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 29,
+                        "text": "L8G"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AhRLZPc19h",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "5C5"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "54 ORR CR., STONEY CREEK, ON L8G 5C5"
+    },
+    "id": 90,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

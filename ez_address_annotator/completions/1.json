@@ -1,0 +1,121 @@
+{
+    "completions": [
+        {
+            "id": 1001,
+            "lead_time": 37.32,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "KLQinFMGby",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "624"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7zIipPpCkb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "QUEENSLAND"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lFgPXscM0W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 16,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lndlroMaGd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 22,
+                        "text": "SOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2vvNnQQ1O0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "CALGARY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8VCoOj0092",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 38,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XDqZlE5Oq_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "T2J4G7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "624  QUEENSLAND DRIVE SOUTH, CALGARY, QC T2J4G7"
+    },
+    "id": 1,
+    "predictions": [],
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,195 @@
+{
+    "completions": [
+        {
+            "id": 130001,
+            "lead_time": 67.785,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "8HlaJ5uhtD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "8"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eybkpNLh4r",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 2,
+                        "text": "Garnet"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fxmoF1l5jb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "Cresent"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OrMe70UgN0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 17,
+                        "text": "36"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Oj7gwtta92",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 20,
+                        "text": "Cedar"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qOwcBq03Pr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 26,
+                        "text": "Ridge"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_q6MdwH7k0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 32,
+                        "text": "Lane"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_uCPvuYqsn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 38,
+                        "text": "Gormely"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "I-ZrN1dXGW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 47,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wFJfslnYad",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 56,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 54,
+                        "text": "Y1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UIWIgyAQR9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 60,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 58,
+                        "text": "6A7"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EnmAFOPW8r",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 51,
+                        "text": "YT"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "8 Garnet Cresent 36 Cedar Ridge Lane, Gormely, ON, YT Y1A 6A7"
+    },
+    "id": 130,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 55001,
+            "lead_time": 31.467,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "XHV6mL8XvF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "16"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2dxDrfYa1L",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "TERREBONNE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OnSNyQm1KR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "CRT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WmrbjSduUn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 19,
+                        "text": "139"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PNRVXJweCa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 23,
+                        "text": "LEXINGTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-JMNGSBs3p",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 33,
+                        "text": "AVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZQ-jlV3oNG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 38,
+                        "text": "DARTMOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "x1mPjKUAWB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 49,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CnxmuubEbK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 52,
+                        "text": "B2X"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RuQ8JB4gyy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 56,
+                        "text": "3T6"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "16 TERREBONNE CRT. 139 LEXINGTON AVE, DARTMOUTH, NS B2X 3T6"
+    },
+    "id": 55,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

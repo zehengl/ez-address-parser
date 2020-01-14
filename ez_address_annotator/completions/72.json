@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 72001,
+            "lead_time": 26.435,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "KKTq4UKa13",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 0,
+                        "text": "Building"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iXacJ7Rg2W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 9,
+                        "text": "607"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dwy6yWNfrX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 14,
+                        "text": "Iqaluit"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "euUzShCeYV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 23,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y291jN0a9P",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 26,
+                        "text": "X0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "muXGqUq0oO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "Building 607, Iqaluit, NU X0A 0H0"
+    },
+    "id": 72,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 78001,
+            "lead_time": 55.675,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "eV_ZKvq4TP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 11,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SDfcF6jH-1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 15,
+                        "text": "383"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Bodxrw56_f",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 20,
+                        "text": "Iqaluit"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B4SkWqYj2_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YSY8qsWA0E",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "X0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ULTIm-38I4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "0H0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rLqwbXye2G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 0,
+                        "text": "House"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uR7HB6K5H5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 6,
+                        "text": "5037"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "House 5037 Box 383, Iqaluit, NU X0A 0H0"
+    },
+    "id": 78,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

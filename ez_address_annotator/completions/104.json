@@ -1,0 +1,195 @@
+{
+    "completions": [
+        {
+            "id": 104001,
+            "lead_time": 75.562,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "OjiPqJGjJ4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "20"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wmFYTXkBRu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 7,
+                        "text": "ROBERT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wii-gSpGkn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 5,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 3,
+                        "text": "RUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Vd7g589HzG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 14,
+                        "text": "BUREAU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RMzJgOdEc_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 21,
+                        "text": "200"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yHgHQGH0nc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 26,
+                        "text": "SAINT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0QCxSZe-LZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 32,
+                        "text": "BASILE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dKyUzIw0So",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 39,
+                        "text": "LE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HMbPKuGY06",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 42,
+                        "text": "GRAND"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OmlQMqZ4UW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 49,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4zmymFepzr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 52,
+                        "text": "J3N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "itxaOBJj8k",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 56,
+                        "text": "1L7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "20 RUE ROBERT BUREAU 200, SAINT-BASILE-LE-GRAND, QC J3N 1L7"
+    },
+    "id": 104,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

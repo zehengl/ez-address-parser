@@ -1,0 +1,300 @@
+{
+    "completions": [
+        {
+            "id": 73001,
+            "lead_time": 74.256,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "D4cfLwcbk7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "17"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Su9XdWWEIi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "MITIK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YQbo1_JF5l",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FybvNgDJ71",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 17,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9RNqKTsQ8a",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 21,
+                        "text": "1330"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dp3752jftY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 27,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3Pl5wAc4b3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 31,
+                        "text": "1331"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-CrMb4TdFz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 36,
+                        "text": "26"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "u5ONk2VZhv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 40,
+                        "text": "OMINGMAK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CVmMKE9VDy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 49,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RcOnyZFTup",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 56,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 56,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MxANqU69Sz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 59,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 59,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8QmjNiy2_3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 64,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 62,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "o-3x78K-Pn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 69,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 66,
+                        "text": "1331"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xtPuyQwmuO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 80,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 72,
+                        "text": "CAMBRIDGE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Q4UWjgtIYr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 84,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 82,
+                        "text": "BAY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NsUZE1lNt5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 88,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 87,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2D0BGm2P7d",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 92,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 90,
+                        "text": "X0B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BSlmZdCSZo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 96,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 94,
+                        "text": "0C0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "17 MITIK STREET  BOX 1330  BOX 1331 26, OMINGMAK STREET P. O. BOX 1331, CAMBRIDGE BAY, NU X0B 0C0"
+    },
+    "id": 73,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

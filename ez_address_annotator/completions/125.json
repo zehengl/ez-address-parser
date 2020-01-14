@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 125001,
+            "lead_time": 36.455,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "REZEScC9Hq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 0,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bJmwHwg5MA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 1,
+                        "text": "2004"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QMCuT6_P3u",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 6,
+                        "text": "18"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "o_AyH-xRlW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 9,
+                        "text": "Michie"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sdDux_tE8l",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 16,
+                        "text": "Place"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yvpTvrSQM1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "Marsh"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rFhwm37D_r",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "Lake"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DOuohieKo1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 35,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MruNsW_jiH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "Y0B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HEuu2I8bJ0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 42,
+                        "text": "1Y2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "#2004 18 Michie Place, Marsh Lake, YT Y0B 1Y2"
+    },
+    "id": 125,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

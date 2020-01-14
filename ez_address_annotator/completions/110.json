@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 110001,
+            "lead_time": 30.006,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "4xSWFmQn7B",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "11"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nMXq5mBIna",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "third"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "GLCTjvtZyn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "ave"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "m2-S__YXAJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 14,
+                        "text": "south"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "e8o9j_N2Hh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "Roxboro"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "htLyh0n-xT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "Montreal"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dLTPU0oKw0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 41,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "opZawM_sy1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 44,
+                        "text": "H8Y"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RvoTUDuR5K",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 48,
+                        "text": "2L3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "11 third ave. south, Roxboro (Montreal), QC H8Y 2L3"
+    },
+    "id": 110,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

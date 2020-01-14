@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 85001,
+            "lead_time": 23.317,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "wCyYWCDtBw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "3560"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B50I2rsC0Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "Rutherford"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gDtdBfSCLU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 16,
+                        "text": "Rd"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jun_yEVg1Z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "Vaughan"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QRMUtebb8Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 30,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5YP5SpfRQh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "L4H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-C21hfrQJj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "2J3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3560 Rutherford Rd , Vaughan, ON L4H 2J3"
+    },
+    "id": 85,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

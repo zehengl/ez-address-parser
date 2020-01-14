@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 71001,
+            "lead_time": 38.516,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "JdT-y8Aoiv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "696"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dwhmUIQ5bM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "HAPPY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Yx9Oi3kaL1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 11,
+                        "text": "VALLEY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4S_ANVmSgt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 18,
+                        "text": "WAY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2pdl561Ekb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "IQALUIT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4O2sYwoB-r",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "X_zz4hOGSV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "X0A0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "696  HAPPY VALLEY WAY, IQALUIT, NT X0A0H0"
+    },
+    "id": 71,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

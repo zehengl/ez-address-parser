@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 57001,
+            "lead_time": 58.473,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "hM7rYMrClL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "845"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oIYFOJKwvW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "FELTZEN SOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HP0SKIZ4N_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 18,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D9cnUbW-Mi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "ROSE BAY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "A3EuujnBaE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 34,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6PhAy-TJuQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "B0J"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aAbpr4J3ex",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "2X0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "845 FELTZEN SOUTH ROAD, ROSE BAY, NS B0J 2X0"
+    },
+    "id": 57,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

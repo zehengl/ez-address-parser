@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 39001,
+            "lead_time": 30.883,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "fsKU5lZT5h",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "332"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VH_h2Gu1HD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Woodward"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XDSIyeBQhk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "Ave"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4LT2GrR0Qu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "Saint"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CUFvVegmk1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "John"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dDfkOuy_Gi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 30,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "51e_CRxcdK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "E2K"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hVsEyb1wxY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "4R1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "332 Woodward Ave, Saint John, NB E2K 4R1"
+    },
+    "id": 39,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

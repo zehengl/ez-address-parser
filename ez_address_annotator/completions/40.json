@@ -1,0 +1,210 @@
+{
+    "completions": [
+        {
+            "id": 40001,
+            "lead_time": 82.003,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "69q6asHayS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "117"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VeRAxxUtez",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Second"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9cwnxXnPrv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "Avenue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZhWD6oO19Z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 35,
+                        "text": "Apartment"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wUV8eltzpX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 45,
+                        "text": "1"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CxAK2sGXEU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 48,
+                        "text": "Saint"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IeNH2aDOaA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 57,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 54,
+                        "text": "John"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BwfeCIeTT-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 61,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 60,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rqlSUmMVnw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 65,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 63,
+                        "text": "E2K"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LZgCzQlpde",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 69,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 67,
+                        "text": "4L9"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kSzXxKasU8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 18,
+                        "text": "28"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a90t1O0KyZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 21,
+                        "text": "Polaris"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "p7Au_CZbyx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 29,
+                        "text": "Court"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "117 Second Avenue 28 Polaris Court Apartment 1, Saint John, NB E2K 4L9"
+    },
+    "id": 40,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

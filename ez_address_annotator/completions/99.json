@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 99001,
+            "lead_time": 41.733,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "wdNsnNdhET",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 0,
+                        "text": "5235"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UUJ2Q2OJ4F",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 5,
+                        "text": "RR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iKG8MtIp8B",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "RuralRouteNumber"
+                        ],
+                        "start": 8,
+                        "text": "3"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4-0_OaeQu5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 11,
+                        "text": "VERNON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dE9n6CuF8G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "RIVER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "j4Br3yuKL6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 25,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zBJBtQK5DZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 28,
+                        "text": "C0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Nnus4mcjJ-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "2E0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "5235 RR 3, VERNON RIVER, PE C0A 2E0"
+    },
+    "id": 99,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

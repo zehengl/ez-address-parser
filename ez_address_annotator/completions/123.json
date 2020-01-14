@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 123001,
+            "lead_time": 35.062,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "g-LotyzpnJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "204"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7WMarP_DrB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "LAMBERT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "r8_W3rcpL5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vDa0PxT6SF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 16,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CNP3hn9n6c",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 22,
+                        "text": "200"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7O0E0Foo1q",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "WHITEHORSE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xvl4JJX6DX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 38,
+                        "text": " YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6Th-WejJp9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 42,
+                        "text": "Y1A3T2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "204  LAMBERT ST SUITE 200, WHITEHORSE, YT Y1A3T2"
+    },
+    "id": 123,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

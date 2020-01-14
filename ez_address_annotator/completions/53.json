@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 53001,
+            "lead_time": 101.746,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "qi2JYdbLd3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1389"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qZZuC2Jd34",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "PARK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7go49mtQ2D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "RD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yHOqJgb48D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 14,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8ZppOhJrB5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 16,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5zpa3r34c-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 18,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1nliwNLrq8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 22,
+                        "text": "621"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "20Tt3KikhB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "KINGSTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "V0GTd_Mvtz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 37,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CnSICGd_ts",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "B0P1R0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1389  PARK RD P O BOX 621, KINGSTON, NS B0P1R0"
+    },
+    "id": 53,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

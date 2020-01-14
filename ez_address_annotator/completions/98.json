@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 98001,
+            "lead_time": 20.835,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "bIl5M4hjW5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "34"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E-e2PvbVJ4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Langley"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "h2mCncvE0W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "Road"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FfjUm6dASe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "Stratford"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QJx5tJcXts",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "u7rhgE-6BD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "C1B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "N5RCQ63-Jq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "2K3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "34 Langley Road, Stratford, PE C1B 2K3"
+    },
+    "id": 98,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

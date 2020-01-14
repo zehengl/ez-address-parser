@@ -1,0 +1,90 @@
+{
+    "completions": [
+        {
+            "id": 62001,
+            "lead_time": 16.75,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "i8QP0ZQMej",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 0,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wJ77HyQKb5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 4,
+                        "text": "1581"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aT1QtxEoVq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 10,
+                        "text": "IQALUIT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Fo_DtbJned",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 19,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9Dr2B3F1Xy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 22,
+                        "text": "X0A0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "BOX 1581, IQALUIT, NT X0A0H0"
+    },
+    "id": 62,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

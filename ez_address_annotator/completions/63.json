@@ -1,0 +1,180 @@
+{
+    "completions": [
+        {
+            "id": 63001,
+            "lead_time": 102.594,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "yMOwB285q3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "107"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pVXF2JWeql",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "MACKENZIE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3LcIGd22Ko",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DfFI5XthnJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 19,
+                        "text": "BAG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LKswycadha",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 23,
+                        "text": "SERVICE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uuBusQqQl5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 31,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "O6R6BRpLL9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 32,
+                        "text": "7"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VLb-at0xiE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 35,
+                        "text": "INUVIK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SwN53Jl_E3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 43,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sIoN--bU5B",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 46,
+                        "text": "X0E"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5AFxAvgALu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 50,
+                        "text": "0T0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "107 MACKENZIE ROAD BAG SERVICE #7, INUVIK, NT X0E 0T0"
+    },
+    "id": 63,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

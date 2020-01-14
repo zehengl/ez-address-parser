@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 116001,
+            "lead_time": 25.568,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "o33O56p1KX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "11430"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a0-mN1greY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "Railway"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "igEK130rLT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "Avenue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XWdRHNRXft",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 21,
+                        "text": "East"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xXJS8NvUC1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "North"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8EXVqxcS6f",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 33,
+                        "text": "Battleford"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EHoFdpW2CZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 45,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CPC5v3F-UO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 48,
+                        "text": "S9A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5Hg0J5272m",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 52,
+                        "text": "3G8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "11430 Railway Avenue East, North Battleford, SK S9A 3G8"
+    },
+    "id": 116,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

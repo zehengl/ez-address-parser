@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 89001,
+            "lead_time": 31.23,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "gpQcvBHSyE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "116"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Z6tIEnmoJP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "GRENADIER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gwW5yLlV0R",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "CRESCENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "X5liCsHaG8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 25,
+                        "text": "THORNHILL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rWX4l-sxUl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uAywv__n47",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "L4J7V7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "116  GRENADIER CRESCENT, THORNHILL, ON L4J7V7"
+    },
+    "id": 89,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

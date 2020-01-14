@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 77001,
+            "lead_time": 51.29,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "lFrMqn04Fy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 0,
+                        "text": "BUILDING"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dv-g9kWILz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 9,
+                        "text": "917"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PoQQGlGerZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 13,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fYT5EOaDq4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 17,
+                        "text": "133"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0Rlq1If9HM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "IQALUIT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ePtUCuQBMl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9JXvnPXdcE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "X0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SCjHxECLdi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "BUILDING 917 BOX 133, IQALUIT, NU X0A 0H0"
+    },
+    "id": 77,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

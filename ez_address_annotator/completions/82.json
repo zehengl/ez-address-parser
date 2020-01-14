@@ -1,0 +1,195 @@
+{
+    "completions": [
+        {
+            "id": 82001,
+            "lead_time": 74.352,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "tOvofrnGRZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "3"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FykS6zquWW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 2,
+                        "text": "BELAIR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "V2sv4J7tNe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "PLACE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MRSCiP39-y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 15,
+                        "text": "ALLISTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kP1x4N9EbY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 26,
+                        "text": "2098"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zhx0AkQYNj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 31,
+                        "text": "MARINE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4Lp3gCvsLB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 38,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DXHCVWQXCo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 45,
+                        "text": "OAKVILLE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aXs2R5RLnD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 56,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 55,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ljuEEk950m",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 60,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 58,
+                        "text": "L6L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bw1cVif0-L",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 64,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 62,
+                        "text": "1B7"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kG7Ft1EHAK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 24,
+                        "text": "6"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3 BELAIR PLACE ALLISTON 6-2098 MARINE DRIVE, OAKVILLE, ON L6L 1B7"
+    },
+    "id": 82,
+    "task_path": "ez_address_annotator\\tasks.json"
+}
