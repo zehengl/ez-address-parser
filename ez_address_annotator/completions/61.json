@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 61001,
+            "lead_time": 28.264,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "-pSegapPNR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 0,
+                        "text": "BUILDING"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2kVuZskTwm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 9,
+                        "text": "401"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ws0A70i8dv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 13,
+                        "text": "PO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-b6DCDaDPZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 16,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "G6vgqmkCYd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 20,
+                        "text": "473"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "h71QLmNrDy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 25,
+                        "text": "PANGNIRTUNG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3CeQNsXS1Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 38,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "O8xiekEGS6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "X0A0R0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "BUILDING 401 PO BOX 473, PANGNIRTUNG, NT X0A0R0"
+    },
+    "id": 61,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

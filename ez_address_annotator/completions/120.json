@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 120001,
+            "lead_time": 20.295,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Akznq3KM5w",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1910"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "c69YPABGQk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "POHORECKY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DF7T-anJck",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "TERRACE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6Cyt-qqsCY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "SASKATOON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DnE8NO15vP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 35,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gd84devr5z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "S7W"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6qgU5oh8HE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 42,
+                        "text": "0J1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1910 POHORECKY TERRACE, SASKATOON, SK S7W 0J1"
+    },
+    "id": 120,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

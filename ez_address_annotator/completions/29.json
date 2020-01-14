@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 29001,
+            "lead_time": 22.183,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "0r2YU9nvx3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "155"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XxXUVXI9tp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "CARLTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MQ1YIpzAVv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UfucnCiROL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 20,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ya4M-ln6S4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 26,
+                        "text": "1900"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VTVFFdHz-d",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 32,
+                        "text": "WINNIPEG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mV0bQl0s3N",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 42,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zA3IYGpRV0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 45,
+                        "text": "R3C3H8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "155  CARLTON STREET SUITE 1900, WINNIPEG, MB R3C3H8"
+    },
+    "id": 29,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

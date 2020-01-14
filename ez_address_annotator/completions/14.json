@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 14001,
+            "lead_time": 19.661,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "-KCEC5iOsK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1909"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9z2kSAecsk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "ROSS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "J18YpXHOtu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 10,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eMuj8E1vQp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 16,
+                        "text": "ABBOTSFORD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-KygyCEOvz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UBmYH39yl4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "V4X"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NEqCl5pZvH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "1C2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1909 ROSS ROAD, ABBOTSFORD, BC V4X 1C2"
+    },
+    "id": 14,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

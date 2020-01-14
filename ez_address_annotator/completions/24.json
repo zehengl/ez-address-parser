@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 24001,
+            "lead_time": 21.119,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "90JziPCBAu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1180"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hLVKt0Fh6P",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "SPRINGFIELD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "d65Stzgvmo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 17,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6AvpC8dBPh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "WINNIPEG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZIrkXQoy5n",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Jt6H6-IMZw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "R2C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DFa-O6aCEq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "2Z2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1180 SPRINGFIELD ROAD, WINNIPEG, MB R2C 2Z2"
+    },
+    "id": 24,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

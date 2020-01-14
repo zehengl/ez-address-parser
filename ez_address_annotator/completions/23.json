@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 23001,
+            "lead_time": 21.651,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "oZyhihdWGD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "2404"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qvk_ZTDsSX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "PARK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sKB2sre-W9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VS4bTLie0T",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 18,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "acXP6k5WeW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 22,
+                        "text": "764"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_bgjCag0JG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "BRANDON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jr8_k9UWVu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D4gm0Omlnn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "R7A5Z8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "2404  PARK AVENUE BOX 764, BRANDON, MB R7A5Z8"
+    },
+    "id": 23,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 5001,
+            "lead_time": 66.632,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "FYBgZvrl-T",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 0,
+                        "text": "RR5"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eMdsIToZbf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 15,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OSLYkfq1ae",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 19,
+                        "text": "46"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EAqd7Ptqmn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "STONY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qvQgcHC_Id",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 29,
+                        "text": "PLAIN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ANQ-4vVBRj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vqAYuu7uHR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "T7Z"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9qajgUhNhb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "1X5"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Z-yIb-QrpU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 5,
+                        "text": "SITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DtH64qkyvN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 10,
+                        "text": "503"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "RR5, SITE 503, BOX 46, STONY PLAIN, AB T7Z 1X5"
+    },
+    "id": 5,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

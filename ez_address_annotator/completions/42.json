@@ -1,0 +1,195 @@
+{
+    "completions": [
+        {
+            "id": 42001,
+            "lead_time": 62.684,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "lEc-n84O4W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 14,
+                        "text": "PO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "W6qMQkkkmp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 17,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bFEBW0iRTs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 21,
+                        "text": "4200"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UHXKH6C_tt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "adKdz3D-0s",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "JOHN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DqpjDuTDkt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 35,
+                        "text": "S"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eYMUCqE0PD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 38,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BuajqVnFHt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "A1B4J6"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "u9AN26pjqK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 0,
+                        "text": "MEM"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pn6LWy9Eep",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 4,
+                        "text": "U"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "SD5ygEHrX7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 6,
+                        "text": "OF"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7CHCBm1aRr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 9,
+                        "text": "NFLD"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "MEM U OF NFLD PO BOX 4200, ST JOHN'S, NL A1B4J6"
+    },
+    "id": 42,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

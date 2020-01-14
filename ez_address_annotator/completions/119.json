@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 119001,
+            "lead_time": 20.067,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Rg_5kqpYjl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "37A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hWQZ-fkGaU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "CLARK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4h3cXOcvQt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 10,
+                        "text": "CRES"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bXUVK_5l5w",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 16,
+                        "text": "SASKATOON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hy8KLWY7WW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 27,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DyioHaaR90",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "S7H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VsdekEU-Nc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "3L8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "37A CLARK CRES, SASKATOON, SK S7H 3L8"
+    },
+    "id": 119,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

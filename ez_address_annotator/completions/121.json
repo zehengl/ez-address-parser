@@ -1,0 +1,195 @@
+{
+    "completions": [
+        {
+            "id": 121001,
+            "lead_time": 37.066,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "-1JNPMrULH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "85"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "T4gzX_hElL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "PONDEROSA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tSi1OVmaSx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ma-EfnjAhO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 19,
+                        "text": "204"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vh2k4Ukax4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 23,
+                        "text": "LAMBERT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oh-iEKcNBR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 31,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "g0wpcOvPBb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 38,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0jphv4uy_Q",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 44,
+                        "text": "200"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xKVzfZ5BXd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 49,
+                        "text": "WHITEHORSE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "W-vMD9UqNb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 62,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 61,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "O_MRvRSPwx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 66,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 64,
+                        "text": "Y1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "A3KlTsnsgQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 70,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 68,
+                        "text": "3T2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "85 PONDEROSA DRIVE 204 LAMBERT STREET SUITE 200, WHITEHORSE, YT Y1A 3T2"
+    },
+    "id": 121,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

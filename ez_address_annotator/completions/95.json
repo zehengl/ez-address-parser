@@ -1,0 +1,330 @@
+{
+    "completions": [
+        {
+            "id": 95001,
+            "lead_time": 117.627,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "IG3WxohSBB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 111,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 109,
+                        "text": "C1N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4uxHjOQsIh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 115,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 113,
+                        "text": "3N7"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ySKAC2dDg2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 107,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 106,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iYOahKHPKv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 103,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 94,
+                        "text": "SUMMERSIDE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oRK4qToew0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 76,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 74,
+                        "text": "442"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3F9xjnDJNV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 84,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 78,
+                        "text": "CENTRAL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WOFgqtdrVU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 91,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 86,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uszeqtfcIY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 66,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 66,
+                        "text": "R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_ntPDUSl1C",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 68,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 68,
+                        "text": "R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "azcG_2-86p",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 71,
+                        "labels": [
+                            "RuralRoute"
+                        ],
+                        "start": 71,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NKbNu162-x",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 72,
+                        "labels": [
+                            "RuralRouteNumber"
+                        ],
+                        "start": 72,
+                        "text": "2"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2zUOhowCzi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 1,
+                        "text": "HARBOUR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vGIoQqQbIj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 9,
+                        "text": "AUTHORITY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EOjA1mRi3j",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 19,
+                        "text": "OF"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8603M8UyFU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 22,
+                        "text": "NEW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Dfuv8rwx5Q",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 25,
+                        "text": " LONDON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MDOoV8bHqH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 34,
+                        "text": "HARBOUR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RcZyd6pPeF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 42,
+                        "text": "AUTHORITY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "t7bqGOTs3U",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 53,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 52,
+                        "text": "OF"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "h67PYRxtub",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 57,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 55,
+                        "text": "NEW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gcS1sZgxP7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 64,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 59,
+                        "text": "LONDON"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": " HARBOUR AUTHORITY OF NEW LONDON  HARBOUR AUTHORITY OF NEW LONDON R.R. #2 442 CENTRAL STREET, SUMMERSIDE, PE C1N 3N7"
+    },
+    "id": 95,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

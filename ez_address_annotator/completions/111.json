@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 111001,
+            "lead_time": 16.59,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "VvLHDxFHVF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "2202"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gEssOXHu36",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "HANOVER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DYkm4qxKHd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "CRES"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7sYYrSym_-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 20,
+                        "text": "REGINA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pqHF-VNaAR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XuzCvnyyZV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "S4V"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "y01pAFaYyD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "0Z6"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "2202 HANOVER CRES., REGINA, SK S4V 0Z6"
+    },
+    "id": 111,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

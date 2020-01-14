@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 22001,
+            "lead_time": 19.22,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "mQO2F7l9_Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "104"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "k9KDATI5L1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Malmsbury"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FnfipAmrYc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "Avenue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PstZ3h6Mkj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "Winnipeg"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "kEceBEJCWz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "c1EsZ4NKzq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "R2N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E6vcwkoK82",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "2V1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "104 Malmsbury Avenue, Winnipeg, MB R2N 2V1"
+    },
+    "id": 22,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

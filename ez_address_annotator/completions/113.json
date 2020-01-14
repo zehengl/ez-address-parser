@@ -1,0 +1,210 @@
+{
+    "completions": [
+        {
+            "id": 113001,
+            "lead_time": 37.217,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "AViBU5T062",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "2"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cBvF6dlBwN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 2,
+                        "text": "GLENROY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hkGnecWuXj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 10,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "f_i-Ncj3Ac",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 15,
+                        "text": "4305"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ssVugV45Od",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 20,
+                        "text": "PRESTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wsqPHqYSnm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 28,
+                        "text": "CRESCENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RUQkrfDm4V",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 37,
+                        "text": "4305"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mrJUNqwUoK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 42,
+                        "text": "PRESTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dnmjvesEFw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 57,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 50,
+                        "text": "CRESCENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hlLhWecc69",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 65,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 60,
+                        "text": "REGINA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "axoPg6pNaV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 69,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 68,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2Rp1hbNIZH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 73,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 71,
+                        "text": "S4X"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Qh4xtrVcHH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 77,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 75,
+                        "text": "0C9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "2 GLENROY ROAD 4305 PRESTON CRESCENT 4305 PRESTON CRESCENT, REGINA, SK S4X 0C9"
+    },
+    "id": 113,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

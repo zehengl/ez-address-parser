@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 18001,
+            "lead_time": 26.436,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "bJlmSrHeAt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "44597"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "unCJRTUqwr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "MICHAEL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9iljDDDaDk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-dFp794P28",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "CHILLIWACK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Mrru9wEZ-o",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "O6CiMwrGxt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "V2R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "o7u0U88oeQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "5L3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "44597 MICHAEL DRIVE, CHILLIWACK, BC V2R 5L3"
+    },
+    "id": 18,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

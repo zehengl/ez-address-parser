@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 48001,
+            "lead_time": 36.484,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "v_qYDVMXBK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "7"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qLFSad_ODX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 5,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 2,
+                        "text": "HYDE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HXUrpgYGuj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 7,
+                        "text": "PARK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wLwfFTCAxj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "abxfWdOSKs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Rs7xXOxihM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "JOHN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_cPehtw6aZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 28,
+                        "text": "S"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UHuN06ToLj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9s5YnyrEOu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "A1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rsMuovvL8k",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "5G1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "7 HYDE PARK DRIVE, ST. JOHN'S, NL A1A 5G1"
+    },
+    "id": 48,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 118001,
+            "lead_time": 91.044,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "sxcdrKMnkD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "105"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MKY0qPzoWy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Hall"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BcFKqFIgZt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bHYSYmlx7V",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 12,
+                        "text": "E"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UxWNppJHOV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 15,
+                        "text": "Moose"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JVw55OaEfL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "Jaw"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "di829xuGsY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 26,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7J2MQBBPVl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 29,
+                        "text": "S6H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZhkysN9mXT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "0T7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "105 Hall St E, Moose Jaw, SK S6H 0T7"
+    },
+    "id": 118,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 93001,
+            "lead_time": 23.224,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "FQ12brF38A",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "65"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y_F3CUNoqL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Grafton"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "20rGs2SjEU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AS1Wm_7lAP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "Charlottetown"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ycIHDgmF0m",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 34,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "akO5XzLhfK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "C1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ll9hJp0WSW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "1K8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "65 Grafton Street, Charlottetown, PE C1A 1K8"
+    },
+    "id": 93,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 97001,
+            "lead_time": 21.843,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "J6g-Qwrse4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "14"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nEnz4c5gy8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Larkspur"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VdGHPrtA4H",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Yl28KzhDUq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 20,
+                        "text": "Stratford"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tjRLlK2lPD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "C5o-ghfXs5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "C1B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Nq2AG-tGRv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "0H2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "14 Larkspur Street, Stratford, PE C1B 0H2"
+    },
+    "id": 97,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,90 @@
+{
+    "completions": [
+        {
+            "id": 107001,
+            "lead_time": 18.054,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "3NLZEHNvIf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "5392"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NNtH4ixILa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "DUQUESNE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ikBWNgu7oe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 16,
+                        "text": "MONTREAL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "i898glLmh8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 26,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0DpCdROsqU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 29,
+                        "text": "H1M2K2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "5392  DUQUESNE, MONTREAL, QC H1M2K2"
+    },
+    "id": 107,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

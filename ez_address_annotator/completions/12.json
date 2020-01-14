@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 12001,
+            "lead_time": 24.231,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "NrChbAYSGs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "4601"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B9bWt7rZVB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "Canada"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VOygW1rWIn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 12,
+                        "text": "Way"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "s6CIGv-D1R",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 16,
+                        "text": "Suite"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KbaUGfHYJs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 22,
+                        "text": "401"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Jyu0bFBN7P",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "Burnaby"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "v3LTX0AQZ7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4DbhdFItjf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "V5G"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FQDUhJa1D8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "4X7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "4601 Canada Way Suite 401, Burnaby, BC V5G 4X7"
+    },
+    "id": 12,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

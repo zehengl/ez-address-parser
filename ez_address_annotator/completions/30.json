@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 30001,
+            "lead_time": 14.662,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "YRWrZKIaV6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1870"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aaLmN7nGoN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "ELLICE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wOIxsevb8G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "AVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "csUJfAvTnx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "WINNIPEG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rMRsSio3l_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "19IQIQLWUz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "R3H0B9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1870  ELLICE AVE, WINNIPEG, MB R3H0B9"
+    },
+    "id": 30,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

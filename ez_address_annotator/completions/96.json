@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 96001,
+            "lead_time": 19.533,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "uIoaCdi5AT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "94"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MR5I4Fin31",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "WATTS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D0_7I4iDe4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hoZMlg-Bo5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "CHARLOTTETOWN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "u6JHGYkC2k",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RNkjFsJ3tL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "C1E"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "C7VrqY2Cob",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "2C1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "94 WATTS AVENUE, CHARLOTTETOWN, PE C1E 2C1"
+    },
+    "id": 96,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

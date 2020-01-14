@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 13001,
+            "lead_time": 23.959,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "vhTCymDlDh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "6519"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Z7heTplwEA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "Napier"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2V5uZ0acrT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oZgStrKkWy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "burnaby"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KQDhIMInLf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 30,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E-vylnLtKy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "V5B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Q3sAQ22b3Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "2C2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "6519, Napier street, burnaby, BC V5B 2C2"
+    },
+    "id": 13,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

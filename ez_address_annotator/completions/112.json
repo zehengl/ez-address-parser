@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 112001,
+            "lead_time": 20.422,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "YUcpC6CARW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "31"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "P2R24YmuXE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "PEELING"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "niBcOgePlq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "e31hK6zF7J",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "SASKATOON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0he5eAZuMk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 30,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yaF675VrUh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "S7M"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "PlB_vKURpI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "4M1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "31 PEELING AVENUE, SASKATOON, SK S7M 4M1"
+    },
+    "id": 112,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

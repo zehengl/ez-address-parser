@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 46001,
+            "lead_time": 19.534,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "MQc9hUT3cr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "354"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_NJ8Lto6RA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Lanark"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "u4VPLgfJTH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "Drive"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D5kHeKiuU4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "Paradise"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3yZ_GtLKAL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 28,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VtFVIL1DQr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 31,
+                        "text": "A1L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qy4JhiFmdG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "0L9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "354 Lanark Drive, Paradise, NL A1L 0L9"
+    },
+    "id": 46,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

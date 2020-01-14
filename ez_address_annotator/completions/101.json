@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 101001,
+            "lead_time": 35.618,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "aR6MdH6Iq7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "155"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Pz0BdnKdEz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 5,
+                        "text": "RUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3iOO-mWoV3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 9,
+                        "text": "GRANDE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vubXi_v9Qw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 16,
+                        "text": "ALLEE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eGJZjGOw_3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 23,
+                        "text": "ILE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8nCOraXoMd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "DE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1oJKS5Z2q8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "LA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cZXSZ6K8vF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 33,
+                        "text": "MADELEINE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "f7abYiAf6W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 44,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "grOR4expcD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 52,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 47,
+                        "text": "G0B1B0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "155  RUE GRANDE ALLEE, ILE DE LA MADELEINE, QC G0B1B0"
+    },
+    "id": 101,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

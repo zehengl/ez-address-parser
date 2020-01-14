@@ -1,0 +1,180 @@
+{
+    "completions": [
+        {
+            "id": 100001,
+            "lead_time": 236.811,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "kLLsff3pYQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 58,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 49,
+                        "text": "WELLINGTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RDWy6Cgeow",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 62,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 61,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NN2uG1WlZY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 66,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 64,
+                        "text": "C0B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4zpBDyKH1b",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 70,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 68,
+                        "text": "2E0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "KLD0jXFrWB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 21,
+                        "text": "WELLINGTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Wj98x8LTWY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 32,
+                        "text": "CENTER"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9KN7U3dIGD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 39,
+                        "text": "C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "94I4LjqHvE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 41,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5We-jgrCQd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 44,
+                        "text": "214"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zeD3kaPOtO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 0,
+                        "text": "PROMENADE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dkNUI_wE6W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 10,
+                        "text": "ACADIENNE"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "PROMENADE ACADIENNE, WELLINGTON CENTER C.P. 214, WELLINGTON, PE C0B 2E0"
+    },
+    "id": 100,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

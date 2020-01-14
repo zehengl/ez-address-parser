@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 58001,
+            "lead_time": 28.605,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "1EmNGhT1tI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "360"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CG0WsiQeuj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "Hillside"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "GOIdMy4fMi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "Drive"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XwGP7PaFM7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "Boutiliers"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1VDJhFDyF4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 33,
+                        "text": "Point"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "70TWo3OZsM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 40,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hKOf7nDi-u",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "B3Z"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5rCxP0qL-I",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 47,
+                        "text": "1X6"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "360, Hillside Drive,, Boutiliers Point, NS B3Z 1X6"
+    },
+    "id": 58,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

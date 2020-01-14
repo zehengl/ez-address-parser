@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 94001,
+            "lead_time": 20.306,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "lsSSJRqLAn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "440"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "oYZLZId1zz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "Notre"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NPuY5TxVhC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 11,
+                        "text": "Dame"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "s_9SVhvl6Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 16,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vuzOM1-lcj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 20,
+                        "text": "Summerside"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6G-WqfyAs6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 32,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BJ0fYqLVt2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 35,
+                        "text": "C1N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a381ixmlmn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "1T1"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "440, Notre Dame St, Summerside, PE C1N 1T1"
+    },
+    "id": 94,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

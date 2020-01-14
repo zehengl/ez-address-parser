@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 52001,
+            "lead_time": 17.422,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "_G2CJ40d-V",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "178"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rY7vE59w3-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "AMARANTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TvIXSY6kt0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "CRESCENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vB9Khb2Yno",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "DARTMOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MFPaMvLfAe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 35,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hvBEDKMnhC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "B2W4A9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "178  AMARANTH CRESCENT, DARTMOUTH, NS B2W4A9"
+    },
+    "id": 52,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,270 @@
+{
+    "completions": [
+        {
+            "id": 44001,
+            "lead_time": 102.141,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "JiAAfmmoDf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 76,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 74,
+                        "text": "A0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iVgbmIXAl8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 80,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 78,
+                        "text": "1P0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2u4-qk6fYs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 72,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 71,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XIItAEhK-2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 1,
+                        "text": "PO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7lU5xCOpCK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 4,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "17l8oS1H6g",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 14,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HveLS4_qOf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 16,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MZUQffFI9U",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 19,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "que_kJAuCt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 23,
+                        "text": "5667"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2gDKwhmsoK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 8,
+                        "text": "5667"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xtw7xpn0BN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 28,
+                        "text": "100"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qQRwtS7LU2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 32,
+                        "text": "MAIN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RxV6jbUOa8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 37,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wBAcFqHHTD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 43,
+                        "text": "BRIGUS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "gXJzzb4D1v",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 50,
+                        "text": "SOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E8BKlAGa4v",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 61,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 58,
+                        "text": "CAPE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "T7A0obqUaL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 68,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 63,
+                        "text": "BROYLE"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": " PO BOX 5667  P.O. BOX 5667 100 MAIN ROAD, BRIGUS SOUTH - CAPE BROYLE, NL A0A 1P0"
+    },
+    "id": 44,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

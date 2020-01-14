@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 25001,
+            "lead_time": 17.988,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Cnvuvg2v9E",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "15"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "y_USYiAizo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "BURY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sOK-HtGnfg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZqXLMvrOXF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "WINNIPEG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2fl7YpR3R-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 27,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZExe7FA8A8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "R3E2X7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "15  BURY STREET, WINNIPEG, MB R3E2X7"
+    },
+    "id": 25,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

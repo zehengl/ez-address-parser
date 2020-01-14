@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 54001,
+            "lead_time": 18.891,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "J6CrPb8RYY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "710"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3rSx26RxCa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "FRANKLYN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YqccMwOMMy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "STRET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OVpviYDxto",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "HALIFAX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "M6Z0Zr57Ns",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 30,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Pn5BZSnZX0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "B3H3B4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "710  FRANKLYN STRET, HALIFAX, NS B3H3B4"
+    },
+    "id": 54,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,450 @@
+{
+    "completions": [
+        {
+            "id": 122001,
+            "lead_time": 184.509,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "UJERQmq2Wd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 1,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4JLvLadi87",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 3,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AyPZKuPFx8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 6,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "w8kpuAvSs6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 10,
+                        "text": "17"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hFu0RDh1f6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 59,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 59,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5ZRSrn_BUD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 61,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 61,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "b6I8Ya9SsV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 66,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 64,
+                        "text": "Box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FjOwvBa7k6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 71,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 69,
+                        "text": "118"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uOWn7nSxX9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 80,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 79,
+                        "text": "10"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xOkH-PT3qa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 88,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 83,
+                        "text": "tagish"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2m6QlRmAPy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 92,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 90,
+                        "text": "ave"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-wDe-4bejt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 103,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 96,
+                        "text": "carcross"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EJpljgmuYI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 107,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 106,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "olcdrFHsv4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 111,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 109,
+                        "text": "Y1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5gQqpVMRDY",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 115,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 113,
+                        "text": "1B0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EsRiAOmv8D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 75,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 73,
+                        "text": "lot"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2IkssxXklw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 77,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 77,
+                        "text": "9"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sDghoOlGjQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 13,
+                        "text": "LOT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mMy7zTSqW_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 17,
+                        "text": "16"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zpPVq8Ix1S",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 20,
+                        "text": "AND"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6y29uFzrpg",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 24,
+                        "text": "16"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mtMGRPuBSe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 28,
+                        "text": "GRP"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fY6cMtj8NP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 32,
+                        "text": "6"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IdQ0_9AAGR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 34,
+                        "text": "PLAN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Pz5MeFsDrZ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 39,
+                        "text": "5005"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ciFtxxNvH5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 45,
+                        "text": "L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1ptlI_zxqv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 47,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 47,
+                        "text": "T"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_shJXp_WIA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 49,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VoPqF01CCJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 56,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 52,
+                        "text": "23354"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": " P.O. Box:17 LOT 16 AND 16, GRP 6 PLAN 5005  L.T.O. 23354  P.O. Box: 118 lot 9-10  tagish ave., carcross, YT Y1A 1B0"
+    },
+    "id": 122,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

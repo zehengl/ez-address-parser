@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 108001,
+            "lead_time": 23.932,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "f7tecbYdbt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "115"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3f_h1zd7C7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 4,
+                        "text": "RUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7YN5zDpzsD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 8,
+                        "text": "DES"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XRJhEAAWdp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 12,
+                        "text": "PME"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QVxgDeN2Om",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "SHERBROOKE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EbGXYrmffW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "QC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a7pEGdYHKw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "J1C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "p9uCnAaHMa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "0R2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "115 RUE DES PME, SHERBROOKE, QC J1C 0R2"
+    },
+    "id": 108,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 8001,
+            "lead_time": 38.79,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "S-M2ZKp2AP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "805"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "L0v9-qww6n",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "8TH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6I_Uhu3wis",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4riieJKzhb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 16,
+                        "text": "SOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cRAA0YzS3s",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 25,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 22,
+                        "text": "WEST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3A9LlH_YsE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 27,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "-5vA8fOnhb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 33,
+                        "text": "905"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ib5mN9npZr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 38,
+                        "text": "CALGARY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "65d0KgVKxO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 47,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "hhAp1rn-4Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 55,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 50,
+                        "text": "T2P1H7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "805  8TH AVENUE SOUTH WEST SUITE 905, CALGARY, AB T2P1H7"
+    },
+    "id": 8,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

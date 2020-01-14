@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 84001,
+            "lead_time": 19.578,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "SHHlADJX_o",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "3"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sMCmHBmkRe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 2,
+                        "text": "MENNO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mezyHxOpPd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 8,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "K1ACKajTfA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 13,
+                        "text": "WATERLOO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y7iLjT_jJu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 23,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9ItMOk6-j1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 26,
+                        "text": "N2L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rqDOG11afa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "2A4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3 MENNO ST., WATERLOO, ON N2L 2A4"
+    },
+    "id": 84,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

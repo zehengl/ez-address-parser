@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 16001,
+            "lead_time": 46.639,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "gNynM3Vauv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 35,
+                        "text": "BC"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y2tO9pLOmi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "V6S"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zIuu1iqgHH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 44,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 42,
+                        "text": "0C1"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZpscCpBpFN",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "Vancouver"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xHkX8GUvLc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 19,
+                        "text": "Ave"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "M8EJHBbFuT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 12,
+                        "text": "Berton"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NLbOZSSwpm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 7,
+                        "text": "5782"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "qer3AEwPuq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 0,
+                        "text": "TH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4syQwm41lK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 2,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OCW8r92jbB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "BuildingNumber"
+                        ],
+                        "start": 3,
+                        "text": "7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "TH#7 - 5782 Berton Ave, Vancouver, BC V6S 0C1"
+    },
+    "id": 16,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

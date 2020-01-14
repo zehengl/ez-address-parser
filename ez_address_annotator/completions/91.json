@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 91001,
+            "lead_time": 63.5,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "V2o36HPuFq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 27,
+                        "text": "WEST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "C7Svp8DVFk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 32,
+                        "text": "ROYALTY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eZwbK4tcv6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 41,
+                        "text": "PE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "h1iE7jxU5n",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 44,
+                        "text": "C1E1B0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0KIbE0ezWd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 0,
+                        "text": "IST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "n7icfgZqtj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 4,
+                        "text": "AVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "mIoz1bHK9b",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 8,
+                        "text": "W"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2KKlv5cIIK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 10,
+                        "text": "ROYALTY"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "efPEVNOi_y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 18,
+                        "text": "IND"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eEsVlSmEtj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Building"
+                        ],
+                        "start": 23,
+                        "text": "PK"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "IST AVE.W.ROYALTY IND. PK, WEST ROYALTY, PE C1E1B0"
+    },
+    "id": 91,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

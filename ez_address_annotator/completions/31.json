@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 31001,
+            "lead_time": 19.489,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "MMbbztidfR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "881"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pjJBRqGUgT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "VICTORIA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wfylkUbK7G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JLPxeIiiSO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "EDMUNDSTON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "dqJeWzeMd0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "NB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7SJKfIDcKT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "E3V3T4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "881  VICTORIA ST., EDMUNDSTON, NB E3V3T4"
+    },
+    "id": 31,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

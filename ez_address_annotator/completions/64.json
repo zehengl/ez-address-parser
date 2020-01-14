@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 64001,
+            "lead_time": 18.514,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "B_sQWP9KF9",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "208"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OTtpfIUX2D",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Sinaa"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "FyWl8xAuJj",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 10,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "MoPPjVGfI8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 18,
+                        "text": "IQALUIT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "R-UwrQV6MU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 27,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "RYgobDvo65",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "X0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wHi5ZmnkQT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "208 Sinaa Street, IQALUIT, NU X0A 0H0"
+    },
+    "id": 64,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

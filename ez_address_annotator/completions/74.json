@@ -1,0 +1,195 @@
+{
+    "completions": [
+        {
+            "id": 74001,
+            "lead_time": 37.081,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "2C2lxhYobm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "322"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "G8aa6IsU1J",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "PISSUK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yS6a8HJeXW",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 11,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fPkcviQO3n",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 16,
+                        "text": "P"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "5CjZhbArFS",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 18,
+                        "text": "O"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "itZRW9KLtU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 21,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "id7i2P5dDA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 25,
+                        "text": "248"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1oD1wAbzVQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "RANKIN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "I95D-WuIfP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 37,
+                        "text": "INLET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HNeMiAfTe5",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 44,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rtdq7pX2mf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 47,
+                        "text": "X0C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pBfyzn0DZw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 53,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 51,
+                        "text": "0G0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "322 PISSUK ST.  P.O. BOX 248, RANKIN INLET, NU X0C 0G0"
+    },
+    "id": 74,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

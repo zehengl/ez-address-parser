@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 51001,
+            "lead_time": 40.143,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "bRFDoeu0vO",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "380"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "K85FYxyDzG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "CRIBBONS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JXUZCH8Q-i",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 13,
+                        "text": "POINT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "7TAjZEBn7G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 19,
+                        "text": "ROAD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "keE8qCNE-L",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 25,
+                        "text": "CRIBBONS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QNqyQDR9gF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 34,
+                        "text": "POINT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JajLhNloTn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 41,
+                        "text": "NS"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "uO1bcvKokc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 44,
+                        "text": "B2G"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jBU_nu7wyJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 48,
+                        "text": "2L2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "380 CRIBBONS POINT ROAD, CRIBBONS POINT, NS B2G 2L2"
+    },
+    "id": 51,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

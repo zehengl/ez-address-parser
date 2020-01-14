@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 79001,
+            "lead_time": 22.095,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "JiMQrmenus",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 0,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "i8J6eqGdYw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 4,
+                        "text": "112"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "esLp9leK0S",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 8,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HVtJNIgu7G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 12,
+                        "text": "112"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "EooUj8nj1s",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 22,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "ARVIAT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wwGDAIlBdy",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 25,
+                        "text": "NT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8kJ4g48hXe",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 28,
+                        "text": "X0C"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "nqqK-9lJw0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "0E0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "BOX 112 BOX 112, ARVIAT, NT X0C 0E0"
+    },
+    "id": 79,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

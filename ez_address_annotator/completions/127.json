@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 127001,
+            "lead_time": 21.64,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "6oIp2CF2T6",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "2093"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0yb155bgeU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "SECOND"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zXk0cxtSH_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1lwFuwX9KL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "WHITEHORSE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1MBX_tHmRK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0YY22EQSoa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "Y1A1B5"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "2093  SECOND AVENUE, WHITEHORSE, YT Y1A1B5"
+    },
+    "id": 127,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

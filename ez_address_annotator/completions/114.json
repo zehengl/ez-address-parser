@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 114001,
+            "lead_time": 16.689,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "G2s4zd2Ofh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "221"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Zx7rpUXyeK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "Laurentian"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3uPX3PJURo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "Drive"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "TdJwSGLm5A",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "Saskatoon"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yMaZeXjIQh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "DFtuZF-6Jh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "S7H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "yRZYlYBECF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "4R8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "221 Laurentian Drive, Saskatoon, SK S7H 4R8"
+    },
+    "id": 114,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

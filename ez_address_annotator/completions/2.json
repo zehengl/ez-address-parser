@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 2001,
+            "lead_time": 27.668,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "nFgYbHETNM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1842"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2VxKkyFmuo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "122"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "vMo35tTsFp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pnlzeXN36z",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 12,
+                        "text": "SW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "a4Md4UNvLp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 16,
+                        "text": "Edmonton"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4EHbUtuKDm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 26,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "as1lH68aVv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 29,
+                        "text": "T6W"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "M6JdPuL7DL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 33,
+                        "text": "1S3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1842-122 St SW, Edmonton, AB T6W 1S3"
+    },
+    "id": 2,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

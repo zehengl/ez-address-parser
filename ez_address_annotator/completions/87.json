@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 87001,
+            "lead_time": 18.534,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "NX3uNTqo5c",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "3265"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Cvj2WZMZDw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "JEFFERSON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NN2SfnPCrG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "BLVD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0jxCTLqKrk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 22,
+                        "text": "WINDSOR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ue7M4DuzEK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QsXVg2syDa",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "N8T"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UmBN3LsKeR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 38,
+                        "text": "2W7"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "3265 JEFFERSON BLVD., WINDSOR, ON N8T 2W7"
+    },
+    "id": 87,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

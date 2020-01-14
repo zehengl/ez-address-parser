@@ -1,0 +1,345 @@
+{
+    "completions": [
+        {
+            "id": 10001,
+            "lead_time": 78.392,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "FBhQiUN-gt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "6208"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "br3b7X82-o",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "BOW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "lcBfqoeKlM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "CRESCENT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "isyyxAqFeH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 18,
+                        "text": "NW"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XdFH_1Dz9k",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 21,
+                        "text": "4911"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "GO7o-gqXUJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 28,
+                        "text": "51"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ilq6mBRvVo",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 31,
+                        "text": "AVENUE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NGSGG9GCMs",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 38,
+                        "text": "Third"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jYaGTKw55r",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 48,
+                        "labels": [
+                            "AdditionalInfo"
+                        ],
+                        "start": 44,
+                        "text": "Floor"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "z5Zmt_utOR",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 55,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 51,
+                        "text": "14505"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "aUophp0-yf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 65,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 57,
+                        "text": "Bannister"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BtU47_g2Yr",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 70,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 67,
+                        "text": "Road"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "WssO7XpFHp",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 73,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 72,
+                        "text": "SE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wzEinHXD1P",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 101,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 98,
+                        "text": "Olds"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LJQ0YJ-K0a",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 105,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 104,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "64OJpX30_d",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 109,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 107,
+                        "text": "T4H"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Wfv8HRUm7r",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 113,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 111,
+                        "text": "1P6"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UG4xgQ3xmm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 77,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 75,
+                        "text": "box"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6bcRQL8K8f",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 82,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 79,
+                        "text": "3965"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_Ci7CVT028",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 87,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 84,
+                        "text": "4911"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "NU-cNdlXbT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 90,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 89,
+                        "text": "51"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fKpHq6qqyL",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 94,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 92,
+                        "text": "ave"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "6208 BOW CRESCENT NW 4911 - 51 AVENUE Third Floor, 14505 Bannister Road SE box 3965 4911-51 ave., Olds, AB T4H 1P6"
+    },
+    "id": 10,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

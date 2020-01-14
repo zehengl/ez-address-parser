@@ -1,0 +1,105 @@
+{
+    "completions": [
+        {
+            "id": 21001,
+            "lead_time": 22.471,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "Z1PtT58IHU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "232"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9eTS2yXOh3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "SPRINGFIELD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wYeNdBJKde",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 17,
+                        "text": "RD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D9azinBLXC",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "WINNIPEG"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "XXwiKOEPU1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 31,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QPJ-eyEyAb",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "R2G3Z8"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "232  SPRINGFIELD RD, WINNIPEG, MB R2G3Z8"
+    },
+    "id": 21,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

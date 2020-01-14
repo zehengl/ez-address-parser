@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 68001,
+            "lead_time": 26.788,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "s-CSHi65F0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "2424"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "jq6bK88UPh",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "Pairngaq"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "BPLWhe20fm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "Crescent"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "tuSYLDTKiV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "Iqaluit"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9JlyN2Km5E",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 33,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8gYBe2Xs1G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "X0A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "LAVydp863R",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 40,
+                        "text": "0H0"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "2424 Pairngaq Crescent, Iqaluit, NU X0A 0H0"
+    },
+    "id": 68,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

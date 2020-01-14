@@ -1,0 +1,150 @@
+{
+    "completions": [
+        {
+            "id": 50001,
+            "lead_time": 27.593,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "0helMNOEwX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "1429"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Mx0XKiHsAF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "Topsail"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "720F_kWP8g",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "Road"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "xgKn7y53qX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 18,
+                        "text": "Unit"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ibqPJO9dV1",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 33,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 26,
+                        "text": "Paradise"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "H9iU7cMve0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 37,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 36,
+                        "text": "NL"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "8qwAafVo5-",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 41,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 39,
+                        "text": "A1L"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Yt7w_twwL0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 43,
+                        "text": "1H6"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "32DKDij0bD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 23,
+                        "text": "B"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "1429 Topsail Road Unit B, Paradise, NL A1L 1H6"
+    },
+    "id": 50,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,165 @@
+{
+    "completions": [
+        {
+            "id": 80001,
+            "lead_time": 35.016,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "NoG8yMyz1W",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "225"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "y5PK80OeYK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 11,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "KUGAARUK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "e4mT27YeNz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 13,
+                        "text": "ST"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0750lM3yBG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 19,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 18,
+                        "text": "PO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ul-zBIfzr2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 27,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 25,
+                        "text": "205"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "q49nY6jS2P",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 30,
+                        "text": "KUGLUKYUK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "sUAoKfLNts",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 41,
+                        "text": "NU"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JFdmstWPYt",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 44,
+                        "text": "X0B"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CH8_JdzLJi",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 50,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 48,
+                        "text": "1K0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ts9poGTLIB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 23,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 21,
+                        "text": "BOX"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "225 KUGAARUK ST.  PO BOX 205, KUGLUKYUK, NU X0B 1K0"
+    },
+    "id": 80,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

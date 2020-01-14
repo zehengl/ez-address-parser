@@ -1,0 +1,90 @@
+{
+    "completions": [
+        {
+            "id": 81001,
+            "lead_time": 16.801,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "sU3LJBIFDw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "388"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eVDlltdup8",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 9,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 5,
+                        "text": "BOOTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fRhx51MIlF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 12,
+                        "text": "OTTAWA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Zk6d0BT0Hn",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 20,
+                        "text": "ON"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "cPkLu0G2wH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 23,
+                        "text": "K1R7K6"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "388  BOOTH, OTTAWA, ON K1R7K6"
+    },
+    "id": 81,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,120 @@
+{
+    "completions": [
+        {
+            "id": 6001,
+            "lead_time": 20.979,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "_gDSABIKR2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 4,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "10134"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "HfZGk16K6k",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 6,
+                        "text": "63"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "U3USwaV7EK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 14,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 9,
+                        "text": "Street"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "utSDJXRR8X",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "Edmonton"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "9iWyY9RnSE",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 27,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YGXCQI95do",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "T6A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "OO8ZRG-iYK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "2M4"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "10134 63 Street, Edmonton, AB T6A 2M4"
+    },
+    "id": 6,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

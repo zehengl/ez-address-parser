@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 26001,
+            "lead_time": 25.474,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "urZaqcsmYK",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "55"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4CIE3ZZke4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 12,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 4,
+                        "text": "ARROWWOOD"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4Mch2Ig0YG",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 15,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 14,
+                        "text": "DR"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "6COLCWJ_io",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 21,
+                        "labels": [
+                            "StreetDirection"
+                        ],
+                        "start": 17,
+                        "text": "SOUTH"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D3U4nA5-nD",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 31,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 24,
+                        "text": "Winnipeg"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZaP1bUTFug",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 35,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 34,
+                        "text": "MB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "D30HF3CY8V",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 39,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 37,
+                        "text": "R2V"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ncwFcWmFyJ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 43,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 41,
+                        "text": "2N9"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "55  ARROWWOOD DR SOUTH, Winnipeg, MB R2V 2N9"
+    },
+    "id": 26,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

@@ -1,0 +1,240 @@
+{
+    "completions": [
+        {
+            "id": 117001,
+            "lead_time": 54.071,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "OAjcMmrIiq",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 63,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 57,
+                        "text": "MELFORT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "bsVWtuncTM",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 67,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 66,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "pKSFpiY_bH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 71,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 69,
+                        "text": "S0E"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VgxaVru4GV",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 75,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 73,
+                        "text": "1A0"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "0GCna14FGX",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 0,
+                        "text": "#"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iWM63t69pm",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 3,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 1,
+                        "text": "235"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JCLDMbNYB3",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 10,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 7,
+                        "text": "2002"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "R-JnLi_rJ_",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 17,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 12,
+                        "text": "Quebec"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "JlL2DG3WJk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 19,
+                        "text": "Avenue"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1O6OgaE0MH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 26,
+                        "text": "426"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QLHKGnfcKT",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 31,
+                        "text": "SCOTIA"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "afojyvGxvz",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 42,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 38,
+                        "text": "DRIVE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "4X_hzjtAkF",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 45,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 44,
+                        "text": "PO"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "eO1IdW1smA",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 49,
+                        "labels": [
+                            "PostalBox"
+                        ],
+                        "start": 47,
+                        "text": "BOX"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "3U3QkL4ge4",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 54,
+                        "labels": [
+                            "PostalBoxNumber"
+                        ],
+                        "start": 51,
+                        "text": "3338"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "#235 - 2002 Quebec Avenue 426  SCOTIA DRIVE PO BOX 3338, MELFORT, SK S0E 1A0"
+    },
+    "id": 117,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

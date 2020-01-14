@@ -1,0 +1,271 @@
+{
+    "completions": [
+        {
+            "id": 128001,
+            "lead_time": 15.269,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "quFPbIQj_K",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 6,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 3,
+                        "text": "2553"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "VvL6KDNM8Y",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 8,
+                        "text": "Quadra"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Y-7mC9bs4G",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "iOjZ7yUelf",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 22,
+                        "text": "100"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "emLDGTHUVP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 29,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 26,
+                        "text": "MAIN"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "zBvEbqz-bk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 31,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "E3qqkCneSv",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 40,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 38,
+                        "text": "204"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "IjBEY48tDk",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 46,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 42,
+                        "text": "BLACK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AiX6lpaOD7",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 53,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 48,
+                        "text": "STREET"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Rv9O6cdG_C",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 59,
+                        "labels": [
+                            "Unit"
+                        ],
+                        "start": 55,
+                        "text": "SUITE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "2xQ0zkJ839",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 63,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 61,
+                        "text": "300"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AQ6BfGeMGc",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 75,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 66,
+                        "text": "WHITEHORSE"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_9GMpql5Ne",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 79,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 78,
+                        "text": "YT"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "ZH1Puk7YAB",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 83,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 81,
+                        "text": "Y1A"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "1kQm_6WPDI",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 87,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 85,
+                        "text": "2M9"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "L2fUEPFoLU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 0,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 0,
+                        "text": "4"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "q1OnMaA4Rw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 20,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 18,
+                        "text": "202"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "4- 2553 Quadra St 202 100 MAIN STREET 204 BLACK STREET SUITE 300, WHITEHORSE, YT Y1A 2M9"
+    },
+    "id": 128,
+    "predictions": [],
+    "task_path": "ez_address_annotator\\tasks.json"
+}

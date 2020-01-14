@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 115001,
+            "lead_time": 28.494,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "TU1dy21GCw",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 2,
+                        "labels": [
+                            "UnitNumber"
+                        ],
+                        "start": 0,
+                        "text": "304"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "rHoLS2S1Io",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 7,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 4,
+                        "text": "1255"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "wn-pAk0N7F",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 9,
+                        "text": "Broad"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "AqcElzCAg2",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 16,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 15,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "Ire07ib7Kd",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 24,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 19,
+                        "text": "Regina"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "UWaoms0_to",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 28,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 27,
+                        "text": "SK"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "_kQMwwc1Dx",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 32,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 30,
+                        "text": "S4R"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "c8CzfefHID",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 36,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 34,
+                        "text": "1Y2"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "304-1255 Broad St, Regina, SK S4R 1Y2"
+    },
+    "id": 115,
+    "task_path": "ez_address_annotator\\tasks.json"
+}

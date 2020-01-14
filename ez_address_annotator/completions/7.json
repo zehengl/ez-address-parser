@@ -1,0 +1,135 @@
+{
+    "completions": [
+        {
+            "id": 7001,
+            "lead_time": 34.174,
+            "result": [
+                {
+                    "from_name": "ner",
+                    "id": "3wx-HhR_68",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 1,
+                        "labels": [
+                            "StreetNumber"
+                        ],
+                        "start": 0,
+                        "text": "75"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "N6ccGxKVwQ",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 8,
+                        "labels": [
+                            "StreetName"
+                        ],
+                        "start": 3,
+                        "text": "Morgan"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "CnT82mARvU",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 13,
+                        "labels": [
+                            "StreetType"
+                        ],
+                        "start": 10,
+                        "text": "Cres"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "B1dAIhUOZ0",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 18,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 17,
+                        "text": "St"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fuhvUK35Pl",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 26,
+                        "labels": [
+                            "Municipality"
+                        ],
+                        "start": 21,
+                        "text": "Albert"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "fNrq4E5Jlu",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 30,
+                        "labels": [
+                            "Province"
+                        ],
+                        "start": 29,
+                        "text": "AB"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "QODjIm4RrH",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 34,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 32,
+                        "text": "T8N"
+                    }
+                },
+                {
+                    "from_name": "ner",
+                    "id": "YaxUFX0kzP",
+                    "source": "$address",
+                    "to_name": "address",
+                    "type": "labels",
+                    "value": {
+                        "end": 38,
+                        "labels": [
+                            "PostalCode"
+                        ],
+                        "start": 36,
+                        "text": "2E3"
+                    }
+                }
+            ]
+        }
+    ],
+    "data": {
+        "address": "75 Morgan Cres., St. Albert, AB T8N 2E3"
+    },
+    "id": 7,
+    "task_path": "ez_address_annotator\\tasks.json"
+}
