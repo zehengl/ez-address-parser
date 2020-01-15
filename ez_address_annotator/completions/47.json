@@ -2,7 +2,7 @@
     "completions": [
         {
             "id": 47001,
-            "lead_time": 30.452,
+            "lead_time": 15.113,
             "result": [
                 {
                     "from_name": "ner",
@@ -96,21 +96,6 @@
                 },
                 {
                     "from_name": "ner",
-                    "id": "TUEVAdlmzr",
-                    "source": "$address",
-                    "to_name": "address",
-                    "type": "labels",
-                    "value": {
-                        "end": 30,
-                        "labels": [
-                            "PostalCode"
-                        ],
-                        "start": null,
-                        "text": "A2V1K9Submit Task ID: 47Completions\u00a0\u00a0New completionCreated 6 minutes ago by Awesome User\u00a0"
-                    }
-                },
-                {
-                    "from_name": "ner",
                     "id": "NOZPOJexmI",
                     "source": "$address",
                     "to_name": "address",
@@ -131,5 +116,6 @@
         "address": "PO BOX 488, LABRADOR CITY, NL A2V1K9"
     },
     "id": 47,
+    "predictions": [],
     "task_path": "ez_address_annotator\\tasks.json"
 }

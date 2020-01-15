@@ -2,7 +2,7 @@
     "completions": [
         {
             "id": 17001,
-            "lead_time": 27.091,
+            "lead_time": 29.006,
             "result": [
                 {
                     "from_name": "ner",
@@ -126,21 +126,6 @@
                 },
                 {
                     "from_name": "ner",
-                    "id": "fjnQyq9P7b",
-                    "source": "$address",
-                    "to_name": "address",
-                    "type": "labels",
-                    "value": {
-                        "end": 48,
-                        "labels": [
-                            "PostalCode"
-                        ],
-                        "start": null,
-                        "text": "V6E3G2Submit Task ID: 17Completions\u00a0\u00a0New completionCreated 27 minutes ago by Awesome User\u00a0"
-                    }
-                },
-                {
-                    "from_name": "ner",
                     "id": "w8BrOV3ONr",
                     "source": "$address",
                     "to_name": "address",
@@ -161,5 +146,6 @@
         "address": "1075  WEST GEORGIA ST SUITE 2100, VANCOUVER, BC V6E3G2"
     },
     "id": 17,
+    "predictions": [],
     "task_path": "ez_address_annotator\\tasks.json"
 }
