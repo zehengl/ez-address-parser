@@ -6,13 +6,16 @@ here = path.abspath(path.dirname(__file__))
 with open(path.join(here, "README.md")) as f:
     long_description = f.read()
 
+with open(path.join(here, "requirements.txt")) as f:
+    requirements = f.read().splitlines()
+
 setup(
     name="ez-address-parser",
     packages=["ez_address_parser"],
     entry_points={"console_scripts": []},
     include_package_data=True,
     package_data={},
-    install_requires=[],
+    install_requires=requirements,
     setup_requires=["setuptools_scm", "pytest-runner"],
     use_scm_version=True,
     tests_require=["pytest"],
