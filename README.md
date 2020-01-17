@@ -3,11 +3,17 @@
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
 [![time tracker](https://wakatime.com/badge/github/zehengl/ez-address-parser.svg)](https://wakatime.com/badge/github/zehengl/ez-address-parser)
 
+An address parser for Canadian postal addressess
+
 ## Install
+
+From [PyPi](https://pypi.org/project/ez-address-parser/)
 
     pip install ez-address-parser
 
-    To install development version, please `pip install git+https://github.com/zehengl/ez-address-parser.git`.
+From [GitHub](https://github.com/zehengl/ez-address-parser)
+
+    pip install git+https://github.com/zehengl/ez-address-parser.git
 
 ## Test
 
