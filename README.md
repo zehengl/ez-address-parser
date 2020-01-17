@@ -7,6 +7,8 @@
 
     pip install ez-address-parser
 
+    To install development version, please `pip install git+https://github.com/zehengl/ez-address-parser.git`.
+
 ## Test
 
     python setup.py test
@@ -20,3 +22,8 @@
     python .\ez_address_annotator\data\convert.py
     python .\ez_address_annotator\data\create_seed.py
     label-studio start ez_address_annotator
+
+### Pretrained Model
+
+    python .\ez_address_annotator\data\export.py
+    python .\create_pretrained_model.py
