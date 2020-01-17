@@ -24,7 +24,7 @@ setup(
     author_email="imzehengl@gmail.com",
     maintainer="Zeheng li",
     maintainer_email="imzehengl@gmail.com",
-    description="An address parser",
+    description="An address parser for Canadian postal addressess",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/zehengl/ez-address-parser",
