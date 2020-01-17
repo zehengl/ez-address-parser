@@ -1,3 +1,4 @@
+# See https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp?ecid=murl10006450#1441964
 street_types = [
     "abbey",
     "acres",
@@ -206,6 +207,7 @@ street_types = [
     "île",
 ]
 
+# See https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp?ecid=murl10006450#1442083
 unit_designators = [
     "apartment",
     "app",
@@ -217,6 +219,7 @@ unit_designators = [
     "unité",
 ]
 
+# See https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp?ecid=murl10006450#1441995
 direction_terms = [
     "e",
     "east",
@@ -225,8 +228,6 @@ direction_terms = [
     "ne",
     "no",
     "nord",
-    "nord-est",
-    "nord-ouest",
     "north",
     "northeast",
     "northwest",
@@ -240,8 +241,6 @@ direction_terms = [
     "southeast",
     "southwest",
     "sud",
-    "sud-est",
-    "sud-ouest",
     "sw",
     "w",
     "west",
