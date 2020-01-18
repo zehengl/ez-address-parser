@@ -1,5 +1,6 @@
 # ez-address-parser
 
+[![Build Status](https://travis-ci.org/zehengl/ez-address-parser.svg?branch=master)](https://travis-ci.org/zehengl/ez-address-parser)
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
 [![time tracker](https://wakatime.com/badge/github/zehengl/ez-address-parser.svg)](https://wakatime.com/badge/github/zehengl/ez-address-parser)
 
