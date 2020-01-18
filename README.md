@@ -2,6 +2,9 @@
 
 [![Build Status](https://travis-ci.org/zehengl/ez-address-parser.svg?branch=master)](https://travis-ci.org/zehengl/ez-address-parser)
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
+![PyPI - License](https://img.shields.io/pypi/l/ez-address-parser)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ez-address-parser)
+![PyPI](https://img.shields.io/pypi/v/ez-address-parser)
 [![time tracker](https://wakatime.com/badge/github/zehengl/ez-address-parser.svg)](https://wakatime.com/badge/github/zehengl/ez-address-parser)
 
 An address parser for Canadian postal addressess
