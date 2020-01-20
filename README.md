@@ -5,6 +5,7 @@
 ![PyPI - License](https://img.shields.io/pypi/l/ez-address-parser)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ez-address-parser)
 ![PyPI](https://img.shields.io/pypi/v/ez-address-parser)
+[![Downloads](https://pepy.tech/badge/ez-address-parser)](https://pepy.tech/project/ez-address-parser)
 [![time tracker](https://wakatime.com/badge/github/zehengl/ez-address-parser.svg)](https://wakatime.com/badge/github/zehengl/ez-address-parser)
 
 An address parser for Canadian postal addressess
@@ -69,8 +70,8 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
 
 ### Annotation
 
-    python .\ez_address_annotator\data\convert.py
-    python .\ez_address_annotator\data\create_seed.py
+    python ez_address_annotator/data/convert.py
+    python ez_address_annotator/data/create_seed.py
     label-studio start ez_address_annotator
 
 `label-studio` provides an ease of use interface for name entity recognition. See the below example.
@@ -79,7 +80,7 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
 
 ### Pretrained Model
 
-    python .\ez_address_annotator\data\export.py
-    python .\create_pretrained_model.py
+    python ez_address_annotator/data/export.py
+    python create_pretrained_model.py
 
 130 annotated adddresses are used to train a default model that comes with this package.
