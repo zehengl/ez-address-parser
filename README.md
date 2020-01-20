@@ -85,4 +85,4 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
     python ez_address_annotator/data/export.py
     python create_pretrained_model.py
 
-130 annotated adddresses are used to train a default model that comes with this package.
+130 annotated addresses are used to train a default model that comes with this package.
