@@ -78,7 +78,7 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
 
 `label-studio` provides an ease of use interface for name entity recognition. See the below example.
 
-![labeling-exmaple](labeling-example.gif)
+![labeling-exmaple](https://github.com/zehengl/ez-address-parser/raw/master/labeling-example.gif)
 
 ### Pretrained Model
 
