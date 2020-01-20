@@ -5,7 +5,9 @@
 ![PyPI - License](https://img.shields.io/pypi/l/ez-address-parser)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ez-address-parser)
 ![PyPI](https://img.shields.io/pypi/v/ez-address-parser)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/ez-address-parser)
 [![Downloads](https://pepy.tech/badge/ez-address-parser)](https://pepy.tech/project/ez-address-parser)
+![GitHub commits since latest release](https://img.shields.io/github/commits-since/zehengl/ez-address-parser/0.2.0)
 [![time tracker](https://wakatime.com/badge/github/zehengl/ez-address-parser.svg)](https://wakatime.com/badge/github/zehengl/ez-address-parser)
 
 An address parser for Canadian postal addresses
