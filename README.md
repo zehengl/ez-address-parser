@@ -8,7 +8,7 @@
 [![Downloads](https://pepy.tech/badge/ez-address-parser)](https://pepy.tech/project/ez-address-parser)
 [![time tracker](https://wakatime.com/badge/github/zehengl/ez-address-parser.svg)](https://wakatime.com/badge/github/zehengl/ez-address-parser)
 
-An address parser for Canadian postal addressess
+An address parser for Canadian postal addresses
 
 ## Install
 
