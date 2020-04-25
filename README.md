@@ -1,3 +1,7 @@
+<div align="center">
+    <img src="https://cdn2.iconfinder.com/data/icons/seo-and-website/100/SEO_search_word-512.png" alt="logo" height="196">
+</div>
+
 # ez-address-parser
 
 [![Build Status](https://travis-ci.org/zehengl/ez-address-parser.svg?branch=master)](https://travis-ci.org/zehengl/ez-address-parser)
@@ -86,3 +90,16 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
     python create_pretrained_model.py
 
 130 annotated addresses are used to train a default model that comes with this package.
+
+<hr>
+
+<sup>
+
+## Credits
+
+- [Icon][1] by [Rakhmat Setiawan][2]
+
+</sup>
+
+[1]: https://www.iconfinder.com/icons/3059893/find_magnifier_search_seo_word_icon
+[2]: https://www.iconfinder.com/rsetiawan93
