@@ -1,11 +1,14 @@
 {
   "recommendations": [
+    "arcticicestudio.nord-visual-studio-code",
     "CoenraadS.bracket-pair-colorizer",
     "DavidAnson.vscode-markdownlint",
+    "esbenp.prettier-vscode",
     "ms-python.python",
     "ms-vscode.wordcount",
     "njpwerner.autodocstring",
     "oderwat.indent-rainbow",
+    "streetsidesoftware.code-spell-checker",
     "tyriar.sort-lines",
     "vscode-icons-team.vscode-icons",
     "wmaurer.change-case"
