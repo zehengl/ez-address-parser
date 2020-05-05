@@ -2,7 +2,7 @@
 black==19.10b0
 label-studio==0.4.2
 pandas==0.25.3
-pylint==2.4.4
+pylint==2.5.0
 pytest==5.3.2
 scikit-learn==0.22.1
 scipy==1.4.1
