@@ -4,7 +4,7 @@
 
 # ez-address-parser
 
-[![Build Status](https://travis-ci.org/zehengl/ez-address-parser.svg?branch=master)](https://travis-ci.org/zehengl/ez-address-parser)
+![pytest](https://github.com/zehengl/ez-address-parser/workflows/pytest/badge.svg?branch=master)
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
 ![PyPI - License](https://img.shields.io/pypi/l/ez-address-parser)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ez-address-parser)
