@@ -89,15 +89,9 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
 
 130 annotated addresses are used to train a default model that comes with this package.
 
-<hr>
-
-<sup>
-
 ## Credits
 
 - [Icon][1] by [Rakhmat Setiawan][2]
-
-</sup>
 
 [1]: https://www.iconfinder.com/icons/3059893/find_magnifier_search_seo_word_icon
 [2]: https://www.iconfinder.com/rsetiawan93
