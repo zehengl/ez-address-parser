@@ -32,37 +32,41 @@ From [GitHub](https://github.com/zehengl/ez-address-parser)
 
 ### Code (with pretrained model)
 
-    from ez_address_parser import AddressParser
+```python
+from ez_address_parser import AddressParser
 
-    ap = AddressParser()
+ap = AddressParser()
 
-    address = input("Address: ")
-    result = ap.parse(address)
-    for token, label in result:
-        print(f"{token:20s} -> {label}")
+address = input("Address: ")
+result = ap.parse(address)
+for token, label in result:
+    print(f"{token:20s} -> {label}")
+```
 
 ### Code (without pretrained model)
 
-    from ez_address_parser import AddressParser
+```python
+from ez_address_parser import AddressParser
 
-    ap = AddressParser(use_pretrained=False)
+ap = AddressParser(use_pretrained=False)
 
-    data = [
-        [
-            ('123', 'StreetNumber'),
-            ('Main', 'StreetName'),
-            ('St', 'StreetType'),
-            ('E', 'StreetDirection')
-        ],
-        ...
-    ] # list of list of (<token>, <label>) tuple
+data = [
+    [
+        ('123', 'StreetNumber'),
+        ('Main', 'StreetName'),
+        ('St', 'StreetType'),
+        ('E', 'StreetDirection')
+    ],
+    ...
+] # list of list of (<token>, <label>) tuple
 
-    ap.train(data)
+ap.train(data)
 
-    address = input("Address: ")
-    result = ap.parse(address)
-    for token, label in result:
-        print(f"{token:20s} -> {label}")
+address = input("Address: ")
+result = ap.parse(address)
+for token, label in result:
+    print(f"{token:20s} -> {label}")
+```
 
 ## Test
 

@@ -1,2 +1,2 @@
 sklearn-crfsuite>=0.3.6
-numpy>=1.18.1
+numpy>=1.21.4
