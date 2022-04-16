@@ -4,7 +4,7 @@ from pathlib import Path
 
 import sklearn_crfsuite
 
-from .features import transform, tokens_to_instance, load_data
+from .features import transform, load_data
 from .utils import tokenize
 
 
