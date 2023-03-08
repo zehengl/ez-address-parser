@@ -209,12 +209,14 @@ street_types = [
 
 # See https://www.canadapost.ca/tools/pg/manual/PGaddress-e.asp?ecid=murl10006450#1442083
 unit_designators = [
+    "#",
     "apartment",
     "app",
     "appartement",
     "apt",
     "bureau",
     "suite",
+    "ste",
     "unit",
     "unité",
 ]

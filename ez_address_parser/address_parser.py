@@ -24,7 +24,19 @@ class AddressParser:
 
         tokens = tokenize(address)
         labels = self.crf.predict([transform(address)])[0]
-        return list(zip(tokens, labels))
+        parsed = list(zip(tokens, labels))
+        result = {}
+        for token, label in parsed:
+            result[label] = token
+
+        parsed_address = {
+            "address_line_1": f"{result['StreetNumber']} {result['StreetName']} {result['StreetType']} {result['StreetDirection']}",
+            "address_line_2": f"{result['Unit']} {result['UnitNumber']}",
+            "city": result["Municipality"],
+            "state": result["Province"],
+            "postal_code": f"{result['PostalCode']} {result['PostalCode']}",
+        }
+        return parsed_address
 
     def train(self, data, c1=0.1, c2=0.1):
         X, y = load_data(data)
