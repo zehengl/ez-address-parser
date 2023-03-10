@@ -1,2 +1,1 @@
-include ez_address_parser/model
-include requirements.txt
+include src/ez_address_parser/model

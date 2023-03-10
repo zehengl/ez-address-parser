@@ -68,31 +68,6 @@ for token, label in result:
     print(f"{token:20s} -> {label}")
 ```
 
-## Test
-
-    python setup.py test
-
-## Develop
-
-    pip install -r requirements-dev.txt
-
-### Annotation
-
-    python ez_address_annotator/data/convert.py
-    python ez_address_annotator/data/create_seed.py
-    label-studio start ez_address_annotator
-
-`label-studio` provides an ease of use interface for name entity recognition. See the below example.
-
-![labeling-example](https://github.com/zehengl/ez-address-parser/raw/main/labeling-example.gif)
-
-### Pretrained Model
-
-    python ez_address_annotator/data/export.py
-    python create_pretrained_model.py
-
-130 annotated addresses are used to train a default model that comes with this package.
-
 ## Credits
 
 - [Icon][1] by [Rakhmat Setiawan][2]

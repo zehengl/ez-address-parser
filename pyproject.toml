@@ -1,0 +1,41 @@
+[project]
+name = "ez-address-parser"
+dynamic = ["version", "dependencies"]
+authors = [{ name = "Zeheng Li", email = "imzehengl@gmail.com" }]
+maintainers = [{ name = "Zeheng Li", email = "imzehengl@gmail.com" }]
+description = "A parser for Canadian postal addresses"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["adress parser", "Canadian"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+[project.urls]
+repository = "https://github.com/zehengl/ez-address-parser"
+homepage = "https://zehengl.github.io/ez-address-parser/"
+
+
+[tool.setuptools_scm]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = ["--import-mode=importlib"]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.txt"] }
+
+
+[build-system]
+requires = ["setuptools>=67.0", "setuptools_scm>=7.1.0"]
+build-backend = "setuptools.build_meta"
