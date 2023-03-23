@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://cdn2.iconfinder.com/data/icons/seo-and-website/100/SEO_search_word-512.png" alt="logo" height="196">
+    <img src="https://cdn2.iconfinder.com/data/icons/seo-and-website/100/SEO_search_word-512.png" alt="logo" height="128">
 </div>
 
 # ez-address-parser
