@@ -23,7 +23,7 @@ theme:
   features:
     - header.autohide
     - content.code.copy
-repo_name: zehengl/ez-address-parser
+repo_name: ez-address-parser
 repo_url: https://github.com/zehengl/ez-address-parser
 plugins:
   - search
