@@ -10,7 +10,7 @@
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ez-address-parser)
 ![PyPI](https://img.shields.io/pypi/v/ez-address-parser)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/ez-address-parser)
-[![Downloads](https://pepy.tech/badge/ez-address-parser)](https://pepy.tech/project/ez-address-parser)
+[![Downloads](https://static.pepy.tech/badge/ez-address-parser)](https://pepy.tech/project/ez-address-parser)
 
 A parser for Canadian postal addresses
 
