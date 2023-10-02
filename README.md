@@ -8,7 +8,6 @@
 ![coding_style](https://img.shields.io/badge/code%20style-black-000000.svg)
 ![PyPI - License](https://img.shields.io/pypi/l/ez-address-parser)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ez-address-parser)
-![PyPI](https://img.shields.io/pypi/v/ez-address-parser)
 ![PyPI - Wheel](https://img.shields.io/pypi/wheel/ez-address-parser)
 [![Downloads](https://static.pepy.tech/badge/ez-address-parser)](https://pepy.tech/project/ez-address-parser)
 [![GitHub Pages](https://github.com/zehengl/ez-address-parser/actions/workflows/gh-deploy.yml/badge.svg)](https://github.com/zehengl/ez-address-parser/actions/workflows/gh-deploy.yml)
