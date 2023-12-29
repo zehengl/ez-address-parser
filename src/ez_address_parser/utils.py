@@ -6,4 +6,4 @@ puncts = punctuation.replace("#", "")
 
 def tokenize(s):
     s = s.replace("#", " # ")
-    return [token for token in split(fr"[{puncts}\s]+", s) if token]
+    return [token for token in split(rf"[{puncts}\s]+", s) if token]

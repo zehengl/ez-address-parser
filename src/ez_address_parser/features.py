@@ -1,4 +1,5 @@
 from string import digits
+
 from .constants import direction_terms, street_types, unit_designators
 from .utils import tokenize
 
