@@ -5,7 +5,7 @@ authors = [{ name = "Zeheng Li", email = "imzehengl@gmail.com" }]
 maintainers = [{ name = "Zeheng Li", email = "imzehengl@gmail.com" }]
 description = "A parser for Canadian postal addresses"
 readme = "README.md"
-requires-python = ">=3.7"
+requires-python = ">=3.8"
 keywords = ["adress parser", "Canadian"]
 classifiers = [
     "Programming Language :: Python :: 3",
