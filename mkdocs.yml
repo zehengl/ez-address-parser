@@ -8,13 +8,19 @@ theme:
   font:
     text: Roboto
   palette:
-    - scheme: default
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
       accent: indigo
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
       accent: indigo
       toggle:
