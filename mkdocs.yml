@@ -1,4 +1,5 @@
 site_name: ez-address-parser
+site_author: Zeheng Li
 nav:
   - Home: index.md
 theme:
