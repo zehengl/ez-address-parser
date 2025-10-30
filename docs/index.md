@@ -1,5 +1,5 @@
 <figure markdown>
-![Logo](https://cdn2.iconfinder.com/data/icons/seo-and-website/100/SEO_search_word-512.png){ width="100" }
+![Logo](https://raw.githubusercontent.com/zehengl/ez-address-parser/refs/heads/main/logo.png){ width="100" }
 </figure>
 
 # ez-address-parser
