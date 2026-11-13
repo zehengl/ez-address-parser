@@ -11,4 +11,7 @@ address = args.address
 
 ap = AddressParser()
 
-print(ap.parse(address))
+if ap.is_address(address):
+    print(ap.parse(address))
+else:
+    print("It's not likely to be an address")

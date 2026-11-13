@@ -1,5 +1,6 @@
 import pickle
 import warnings
+from collections import Counter
 from pathlib import Path
 
 import sklearn_crfsuite
@@ -25,6 +26,11 @@ class AddressParser:
         tokens = tokenize(address)
         labels = self.crf.predict([transform(address)])[0]
         return list(zip(tokens, labels))
+
+    def is_address(self, address):
+        result = self.parse(address)
+        label_counts = Counter(label for _, label in result)
+        return max(label_counts.values()) <= 2
 
     def train(self, data, c1=0.1, c2=0.1):
         X, y = load_data(data)
