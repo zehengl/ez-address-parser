@@ -1,0 +1,57 @@
+[project]
+site_name = "ez-address-parser"
+nav = [{ "Home" = "index.md" }]
+repo_name = "ez-address-parser"
+repo_url = "https://github.com/zehengl/ez-address-parser"
+
+[project.plugins.minify]
+minify_html = true
+minify_css = true
+
+[project.theme]
+variant = "classic"
+favicon = "https://raw.githubusercontent.com/zehengl/ez-address-parser/refs/heads/main/logo.png"
+logo = "https://raw.githubusercontent.com/zehengl/ez-address-parser/refs/heads/main/logo.png"
+font.text = "Roboto"
+features = [
+  "header.autohide",
+  "navigation.top",
+  "navigation.tabs",
+  "navigation.footer",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "material/brightness-auto"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "material/toggle-switch"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+primary = "indigo"
+accent = "indigo"
+toggle.icon = "material/toggle-switch-off-outline"
+toggle.name = "Switch to light mode"
+
+[project.markdown_extensions]
+def_list = {}
+attr_list = {}
+md_in_html = {}
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_index = "zensical.extensions.emoji.twemoji"
+emoji_generator = "zensical.extensions.emoji.to_svg"
+
+[project.extra]
+social = [
+  { icon = "fontawesome/brands/github", link = "https://github.com/zehengl" },
+  { icon = "fontawesome/brands/linkedin", link = "https://linkedin.com/in/zehengl" },
+]
